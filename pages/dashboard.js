@@ -1,0 +1,78 @@
+import Image from "next/image";
+import styles from '@/styles/Dashboard.module.css';
+import { useState, useEffect } from 'react';
+import { onAuthStateChanged, signOut } from 'firebase/auth';
+import { auth } from '@/firebase/firebase.config';
+import { useRouter } from 'next/router';
+import UserLogout from '@/firebase/UserLogout';
+
+export default function Dashboard() {
+    const [user, setUser] = useState({});
+    const [showDropdown, setShowDropdown] = useState(false);
+    const router = useRouter();
+
+    useEffect(() => {
+        const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
+            // Ensure currentUser is not null or undefined before updating state
+            if (currentUser) {
+                setUser(currentUser);
+            }
+        });
+
+        return () => {
+            // Unsubscribe from onAuthStateChanged when the component unmounts
+            unsubscribe();
+        };
+    }, []);
+
+    const handleLogout = async () => {
+        console.log('Logging out...');
+        try {
+            await signOut(auth);
+            console.log('User Logged Out');
+            setUser({}); // Reset user state
+            setShowDropdown(false);
+            console.log('Before push');
+            router.push('/login');
+            console.log('After push');
+        } catch (error) {
+            console.error('Error logging out:', error.message);
+        }
+    };
+
+
+    return (
+        <div className={styles.main}>
+            <div className={styles.navBar}>
+                <Image className={styles.wordmark} src="/wordmark.svg" width={221} height={34} />
+                <div className={styles.user}>
+                    <Image className={styles.pfp} src="/pfp-placeholder.svg" width={40} height={40} />
+                    Hello, {user?.displayName}
+                    <Image
+                        className={styles.icon}
+                        src="/logoutArrow.svg"
+                        width={16}
+                        height={9}
+                        onClick={() => setShowDropdown(!showDropdown)}
+                    />
+                </div>
+                {showDropdown && (
+                    <div className={styles.dropdown}>
+                        {/* Pass the onClick prop to UserLogout */}
+                        <UserLogout onLogout={handleLogout} />
+                    </div>
+                )}
+            </div>
+            <hr className={styles.divider}></hr>
+            <div />
+            <div className={styles.header}>
+                <h1 className={styles.title}>Budget Dashboard</h1>
+                <div className={styles.warning}>
+                    <Image className={styles.info} src="/info.svg" width={14} height={14} />
+                    <p className={styles.warningText}>We are not financial advisors</p>
+                </div>
+            </div>
+
+        </div>
+    );
+}
