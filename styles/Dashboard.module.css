@@ -3,8 +3,8 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding-top: 3rem;
-    padding-bottom: 1rem;
+    padding-top: 2rem;
+    padding-bottom: .5rem;
 }
 
 .wordmark {
@@ -20,7 +20,6 @@
 }
 
 .title {
-
     margin-left: 8rem;
 }
 
@@ -77,4 +76,52 @@
 
 .icon {
     margin-left: .5rem;
+}
+
+.budgets {
+    width: 752px;
+    height: 260px;
+    border-radius: 16px;
+    border: 1px solid #A9A9A9;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 1em;
+    margin: .5rem;
+}
+
+.transactions {
+    width: 340px;
+    height: 528px;
+    border-radius: 16px;
+    border: 1px solid #A9A9A9;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 1em;
+    margin: .5rem;
+}
+
+.contents {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.vertical {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.overview {
+    width: 752px;
+    height: 209px;
+    border-radius: 16px;
+    border: 1px solid #A9A9A9;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 1em;
+    margin: .5rem;
 }

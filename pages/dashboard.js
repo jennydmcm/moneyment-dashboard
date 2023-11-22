@@ -72,7 +72,13 @@ export default function Dashboard() {
                     <p className={styles.warningText}>We are not financial advisors</p>
                 </div>
             </div>
-
+            <div className={styles.contents}>
+                <div className={styles.vertical}>
+                    <div className={styles.overview}>Overview</div>
+                    <div className={styles.budgets}>Budgets</div>
+                </div>
+                <div className={styles.transactions}>Transactions</div>
+            </div>
         </div>
     );
 }
