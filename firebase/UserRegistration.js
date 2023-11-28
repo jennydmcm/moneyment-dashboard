@@ -15,6 +15,7 @@ export default function UserRegistrationSignIn() {
 
 
 
+
     const register = async () => {
         try {
             setLoading(true);
@@ -47,6 +48,8 @@ export default function UserRegistrationSignIn() {
             setLoading(false);
         }
     };
+
+
 
     return (
         <>

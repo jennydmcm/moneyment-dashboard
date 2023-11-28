@@ -4,7 +4,9 @@ import { useState, useEffect } from 'react';
 import { onAuthStateChanged, signOut } from 'firebase/auth';
 import { auth } from '@/firebase/firebase.config';
 import { useRouter } from 'next/router';
-import UserLogout from '@/firebase/UserLogout';
+import { Bar } from "react-chartjs-2";
+import BarChart from "@/components/BarGraph";
+
 
 export default function Dashboard() {
     const [user, setUser] = useState({});
@@ -13,14 +15,14 @@ export default function Dashboard() {
 
     useEffect(() => {
         const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
-            // Ensure currentUser is not null or undefined before updating state
+
             if (currentUser) {
                 setUser(currentUser);
             }
         });
 
         return () => {
-            // Unsubscribe from onAuthStateChanged when the component unmounts
+
             unsubscribe();
         };
     }, []);
@@ -30,7 +32,7 @@ export default function Dashboard() {
         try {
             await signOut(auth);
             console.log('User Logged Out');
-            setUser({}); // Reset user state
+            setUser({});
             setShowDropdown(false);
             console.log('Before push');
             router.push('/login');
@@ -74,7 +76,12 @@ export default function Dashboard() {
             </div>
             <div className={styles.contents}>
                 <div className={styles.vertical}>
-                    <div className={styles.overview}>Overview</div>
+                    <div className={styles.overview}>
+                        <h1 className={styles.overviewTitle}>Overview</h1>
+                        <div className={styles.chart}>
+                            <BarChart />
+                        </div>
+                    </div>
                     <div className={styles.budgets}>Budgets</div>
                 </div>
                 <div className={styles.transactions}>Transactions</div>

@@ -124,4 +124,25 @@
     font-weight: 700;
     padding: 1em;
     margin: .5rem;
+    display: flex;
+    justify-content: center;
+
+    flex-direction: column;
+}
+
+.overviewTitle {
+    display: flex;
+    justify-self: flex-start;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.chart {
+    display: flex;
+    align-content: center;
+    width: 752px;
+    height: 200px;
+    margin-left: 10rem;
+
 }

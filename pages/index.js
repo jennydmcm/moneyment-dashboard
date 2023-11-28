@@ -9,6 +9,7 @@ import UserLogout from '@/firebase/UserLogout'
 import Link from 'next/link'
 import Image from 'next/image'
 
+
 export default function Home() {
   const [user, setUser] = useState({});
 
