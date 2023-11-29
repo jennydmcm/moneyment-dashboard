@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import styles from './CategoryImg.module.css';
 import CoffeeImage from "public/Coffee.jpeg";
 import FoodImage from "public/Food.jpeg";
@@ -23,7 +22,7 @@ export default function CategoryItem({ data }) {
 
     return (
         <div className={styles.container}>
-            <Image
+            <img
                 src={imageSources[category]}
                 alt="categoryimage"
                 width={size === "s" ? 24 : 28}
