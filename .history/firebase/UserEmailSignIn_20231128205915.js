@@ -24,7 +24,7 @@ export default function UserEmailSignIn() {
 
             <div className={styles.main}>
 
-                <div className={styles.require}>
+            <div className={styles.require}>
                     <p className={styles.p}>* required fields</p>
                 </div>
 
@@ -38,7 +38,7 @@ export default function UserEmailSignIn() {
                             setLoginEmail(event.target.value);
                         }}
                     />
-                    <div className={styles.inputTitle}>Password *</div>
+                    <div className={styles.inputTitle}>Password</div>
                     <input
                         className={styles.password}
                         placeholder="Password"
@@ -55,6 +55,9 @@ export default function UserEmailSignIn() {
                         login()
                         setLoginEmail("")
                         setLoginPassword("")
+
+
+
                     }}>Login</button>
             </div>
         </>

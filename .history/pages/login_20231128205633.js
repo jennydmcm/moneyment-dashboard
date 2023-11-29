@@ -34,33 +34,18 @@ export default function Home() {
                     
                     <GoogleSignIn />
 
-                    <div className={styles.divider}>
-                        <hr className={styles.hr}/>
-                        <p className={styles.p}>or</p>
-                        <hr className={styles.hr}/>
-                    </div>
-
                     <UserEmailSignIn className={styles.signIn} />
-
+                    
                     <h4 className={styles.link}>Don't have an account? <Link className={styles.href} href="/" >Sign up</Link></h4>
                 </div >
 
                 <div className={styles.graphicContainer}>
-                    <Image className={styles.leaf} src="/leaf-bg.svg" width={700} height={580} /> 
-
-                    <h2 className={styles.h1}>
-                        Greater Control of Your Finances
-                    </h2>
-
-                    <Image className={styles.computer} src="/computer.png" width={588} height={329} />
-
+                    <Image className={styles.leaf} src="/leaf-bg.svg" width={700} height={580} />          <h2 className={styles.h1}>Greater Control of Your Finances</h2>
+                    <Image className={styles.computer} src="/computer.png" width={588} height={329} ></Image>
                     <Image className={styles.icon} src="/logo.svg" width={48} height={48} />
-
                     <h3 className={styles.description}>Empower your student journey, simplifying finances for greater control and focus on what matters most</h3>
                     <h4 className={styles.warning}>Moneyment provides AI-generated financial suggestions and should be used for informational purposes only. All financial decisions remain ultimately your responsibility.</h4>
                 </div>
-
-
             </main >
         </>
     )

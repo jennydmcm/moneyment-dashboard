@@ -67,14 +67,13 @@
 }
 
 .register {
-    width: 460px;
+    width: 477px;
     background-color: #429488;
     color: white;
     border: none;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    border-radius: 10px;
-    margin-top: 32px;
+    padding: 24px 157px;
+    border-radius: 5px;
+    margin-top: 50px;
     text-align: center;
     font-size: 16px;
     font-weight: 700;
@@ -82,4 +81,5 @@
 
 .register:hover {
     background-color: #1e5e55;
+
 }

@@ -30,11 +30,12 @@
 }
 
 .password {
-    padding: 14px 16px;
-    width: 100%;
+    padding: 5px;
+    width: 472px;
+    height: 43px;
     border-radius: 5px;
-    border: 1px solid #a4a4a4;
-    font-size: 14px;
+    border: 1px solid #707070;
+    font-size: 16px;
     font-weight: 500;
 }
 
@@ -67,14 +68,13 @@
 }
 
 .register {
-    width: 460px;
+    width: 477px;
     background-color: #429488;
     color: white;
     border: none;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    border-radius: 10px;
-    margin-top: 32px;
+    padding: 24px 157px;
+    border-radius: 5px;
+    margin-top: 50px;
     text-align: center;
     font-size: 16px;
     font-weight: 700;
@@ -82,4 +82,5 @@
 
 .register:hover {
     background-color: #1e5e55;
+
 }

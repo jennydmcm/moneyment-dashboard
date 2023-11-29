@@ -58,7 +58,7 @@ export default function Home() {
 
                     <h3 className={styles.description}>Empower your student journey, simplifying finances for greater control and focus on what matters most</h3>
                     <h4 className={styles.warning}>Moneyment provides AI-generated financial suggestions and should be used for informational purposes only. All financial decisions remain ultimately your responsibility.</h4>
-                </div>
+                    </div>
 
 
             </main >
