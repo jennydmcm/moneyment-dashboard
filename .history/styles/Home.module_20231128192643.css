@@ -1,0 +1,114 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  column-gap: 8em;
+  margin-left: 12%;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 1728px;
+  margin-top: 1.5rem;
+}
+
+.header {
+  font-size: 2em;
+  font-weight: 700;
+  margin: 0;
+}
+
+.divider {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.hr {
+  border: 0.5px solid #A9A9A9;
+  width: 10em;
+
+}
+
+.h1 {
+  font-size: 38px;
+  width: 400px;
+  margin-left: 6.5rem;
+  margin-top: 7rem;
+  font-weight: 700;
+  color: white;
+  position: absolute;
+}
+
+.logo {
+  margin-top: 10px;
+  margin-bottom: 2px;
+  margin-left: 0px;
+}
+
+.subhead {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.title {
+  margin-top: 4em;
+}
+
+.graphicContainer {
+
+  width: 2000px;
+  height: 750px;
+  margin-top: 15px;
+  background-color: #429488;
+  border-radius: 25px;
+}
+
+.leaf {
+  margin-top: 130px;
+  margin-left: 20px;
+  position: absolute;
+
+}
+
+.computer {
+  position: relative;
+  margin-top: 250px;
+  margin-left: 60px;
+}
+
+.description {
+  position: relative;
+  font-size: 20px;
+  color: white;
+  font-weight: 400;
+  width: 575px;
+  margin-left: 95px;
+}
+
+.warning {
+  color: white;
+  font-size: 12px;
+  position: relative;
+  width: 575px;
+  margin-top: 30px;
+  margin-left: 95px;
+  font-weight: 200;
+}
+
+.icon {
+  position: absolute;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.link {
+  font-size: 14px;
+  font-weight: 500;
+
+}
+
+.href {
+  color: #429488;
+}
