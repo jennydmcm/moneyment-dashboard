@@ -1,5 +1,10 @@
 import React from "react";
 import styles from './CategoryImg.module.css';
+import CoffeeImage from "public/Coffee.svg";
+import FoodImage from "public/Food.jpeg";
+import GroceriesImage from "public/Groceries.jpeg";
+import ShoppingImage from "public/Shopping.jpeg";
+
 
 export default function CategoryItem({ data }) {
 
@@ -7,11 +12,13 @@ export default function CategoryItem({ data }) {
 
 
     const imageSources = {
-        Coffee: "/public/Coffee.png",
-        Food: "/public/Food.png",
-        Groceries: "/public/Groceries.png",
-        Shopping: "/public/Shopping.png",
+        category: {
+            Coffee: CoffeeImage,
+            Food: FoodImage,
+            Groceries: GroceriesImage,
+            Shopping: ShoppingImage,
 
+        }
     };
 
     const iconStyle = size === "s" ? styles.s : styles.m;
@@ -20,7 +27,7 @@ export default function CategoryItem({ data }) {
         <div className={styles.container}>
             <img
                 src={imageSources[category]}
-                alt=""
+                alt="categoryimage"
                 width={size === "s" ? 24 : 28}
                 height={size === "s" ? 24 : 28}
                 className={iconStyle}
