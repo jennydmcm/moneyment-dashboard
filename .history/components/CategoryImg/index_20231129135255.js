@@ -1,7 +1,6 @@
 import React from "react";
-import Image from "next/image";
 import styles from './CategoryImg.module.css';
-import CoffeeImage from "public/Coffee.jpeg";
+import CoffeeImage from "public/Coffee.svg";
 import FoodImage from "public/Food.jpeg";
 import GroceriesImage from "public/Groceries.jpeg";
 import ShoppingImage from "public/Shopping.jpeg";
@@ -13,17 +12,20 @@ export default function CategoryItem({ data }) {
 
 
     const imageSources = {
+        category: {
             Coffee: CoffeeImage,
             Food: FoodImage,
             Groceries: GroceriesImage,
             Shopping: ShoppingImage,
+
+        }
     };
 
     const iconStyle = size === "s" ? styles.s : styles.m;
 
     return (
         <div className={styles.container}>
-            <Image
+            <img
                 src={imageSources[category]}
                 alt="categoryimage"
                 width={size === "s" ? 24 : 28}
