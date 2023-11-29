@@ -1,0 +1,78 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10%;
+}
+
+.name {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+}
+
+.email {
+    padding: 5px;
+    width: 472px;
+    height: 43px;
+    border-radius: 5px;
+    border: 1px solid #707070;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.password {
+    padding: 5px;
+    width: 472px;
+    height: 43px;
+    border-radius: 5px;
+    border: 1px solid #707070;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.firstName {
+    width: 225px;
+
+    height: 43px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #707070;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.lastName {
+    width: 225px;
+    margin-left: 10px;
+    height: 43px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #707070;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.inputTitle {
+    font-size: 14px;
+    margin-top: 30px;
+    margin-bottom: 3px;
+}
+
+.register {
+    width: 477px;
+    background-color: #429488;
+    color: white;
+    border: none;
+    padding: 24px 157px;
+    border-radius: 5px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.register:hover {
+    background-color: #1e5e55;
+
+}
