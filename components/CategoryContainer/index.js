@@ -4,10 +4,10 @@ import CategoryItem from "../CategoryImg";
 
 const CategoryContainer = () => {
     const data = [
-        { category: "Coffee", amount: 10 },
-        { category: "Food", amount: 20 },
-        { category: "Groceries", amount: 30 },
-        { category: "Shopping", amount: 40 },
+        { category: "Coffee", location: 'Starbucks', amount: 10.67 },
+        { category: "Food", location: 'Subway', amount: 20.67 },
+        { category: "Groceries", location: 'Safeway', amount: 30.54 },
+        { category: "Shopping", location: 'Uniqlo', amount: 40.19 },
     ];
 
     console.log("Data in CategoryContainer:", data);

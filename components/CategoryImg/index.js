@@ -9,14 +9,14 @@ import ShoppingImage from "public/Shopping.jpeg";
 
 export default function CategoryItem({ data }) {
 
-    const { category, amount, size } = data;
+    const { category, amount, size, location } = data;
 
 
     const imageSources = {
-            Coffee: CoffeeImage,
-            Food: FoodImage,
-            Groceries: GroceriesImage,
-            Shopping: ShoppingImage,
+        Coffee: CoffeeImage,
+        Food: FoodImage,
+        Groceries: GroceriesImage,
+        Shopping: ShoppingImage
     };
 
     const iconStyle = size === "s" ? styles.s : styles.m;
@@ -31,9 +31,11 @@ export default function CategoryItem({ data }) {
                 className={iconStyle}
             />
             <div className={styles.textContainer}>
+                <p className={styles.store}>{location}</p>
                 <p className={styles.title}>{category}</p>
-                <p className={styles.amount}>Amount: ${amount}</p>
             </div>
+            <p className={styles.amount}>-${amount}</p>
+
         </div>
     );
 }

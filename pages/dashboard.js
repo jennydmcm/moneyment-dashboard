@@ -6,6 +6,7 @@ import { auth } from '@/firebase/firebase.config';
 import { useRouter } from 'next/router';
 import { Bar } from "react-chartjs-2";
 import BarChart from "@/components/BarGraph";
+import BudgetContainer from "@/components/BudgetContainer";
 import CategoryContainer from "@/components/CategoryContainer";
 import UserLogout from "@/firebase/UserLogout";
 
@@ -84,10 +85,19 @@ export default function Dashboard() {
                             <BarChart />
                         </div>
                     </div>
-                    <div className={styles.budgets}>Budgets</div>
+                    <div className={styles.budgets}>Budgets
+                        <BudgetContainer className={styles.budgetContainer} />
+
+                    </div>
                 </div>
                 <div className={styles.transactions}>Transactions
-                    <CategoryContainer />
+                    <div className={styles.transactionInfo}>
+                        <p className={styles.date}>Today</p>
+                        <CategoryContainer />
+                        <hr class="solid" />
+                        <p className={styles.date}>Oct, 15 2023</p>
+                        <CategoryContainer />
+                    </div>
                 </div>
             </div>
         </div>
