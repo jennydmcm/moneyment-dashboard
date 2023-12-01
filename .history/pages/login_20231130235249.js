@@ -46,13 +46,13 @@ export default function Home() {
                 </div >
 
                 <div className={styles.graphicContainer}>
-                    <Image className={styles.leaf} src="/leaf-bg.svg" width={700} height={600} /> 
+                <Image className={styles.leaf} src="/leaf-bg.svg" width={700} height={600} /> 
 
                     <h2 className={styles.h1}>
                         Greater Control of Your Finances
                     </h2>
 
-                    <Image className={styles.computer} src="/computer.png" width={570} height={329} />
+                    <Image className={styles.computer} src="/computer.png" width={588} height={329} />
 
                     <Image className={styles.icon} src="/logo.svg" width={48} height={48} />
 

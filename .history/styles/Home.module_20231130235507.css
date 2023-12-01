@@ -12,8 +12,8 @@
 .login {
   display: flex;
   flex-direction: column;
-  align-self: flex-start;
-  margin-top: 2em;
+  align-self: center;
+  margin-top: 0.5em;
   width: 50vw;
 }
 

@@ -12,10 +12,10 @@
 .login {
     display: flex;
     flex-direction: column;
-    align-self: flex-start;
-    margin-top: 1.4em;
+    align-self: center;
+    margin-top: 0.5em;
     width: 50vw;
-  }
+}
 
 .header {
     font-size: 1.7em;
@@ -68,7 +68,7 @@
 }
 
 .title {
-    margin-top: 2.9em;
+    margin-top: 3em;
 }
 
 .graphicContainer {
@@ -92,29 +92,29 @@
 }
   
 .computer {
-    display: flex;
-    align-self: center;
-    max-height: 100%;
-    z-index: 999;  
+    position: relative;
+    margin-top: 250px;
+    margin-left: 60px;
 }
   
 .description {
-    font-size: 20px;
+    position: relative;
+    font-size: 16px;
     color: white;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 1.5em;
-    width: 540px;
-    align-self: center;
-    z-index: 2;
+    width: 500px;
+    margin-left: 95px;
 }
   
 .warning {
     color: white;
     font-size: 12px;
-    width: 550px;
-    align-self: center;
+    position: relative;
+    width: 575px;
+    margin-top: 30px;
+    margin-left: 95px;
     font-weight: 200;
-    z-index: 2;
 }
   
 .icon {
@@ -127,7 +127,7 @@
     font-size: 14px;
     font-weight: 500;
 }
-  
+
 .href {
     font-weight: 700;
     color: #429488;

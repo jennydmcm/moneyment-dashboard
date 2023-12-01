@@ -12,10 +12,10 @@
 .login {
     display: flex;
     flex-direction: column;
-    align-self: flex-start;
-    margin-top: 1.4em;
+    align-self: center;
+    margin-top: 0.5em;
     width: 50vw;
-  }
+}
 
 .header {
     font-size: 1.7em;
@@ -68,7 +68,7 @@
 }
 
 .title {
-    margin-top: 2.9em;
+    margin-top: 3em;
 }
 
 .graphicContainer {
@@ -111,10 +111,11 @@
 .warning {
     color: white;
     font-size: 12px;
-    width: 550px;
-    align-self: center;
+    position: relative;
+    width: 575px;
+    margin-top: 30px;
+    margin-left: 95px;
     font-weight: 200;
-    z-index: 2;
 }
   
 .icon {
@@ -127,7 +128,7 @@
     font-size: 14px;
     font-weight: 500;
 }
-  
+
 .href {
     font-weight: 700;
     color: #429488;

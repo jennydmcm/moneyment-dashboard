@@ -3,7 +3,7 @@
   flex-direction: row;
   gap: 8em;
   justify-content: space-between;
-  align-content: center;
+  align-content: flex-start;
   height: 98vh;
   margin-right: 1vh;
   margin-left: 20vh;
@@ -12,8 +12,8 @@
 .login {
   display: flex;
   flex-direction: column;
-  align-self: flex-start;
-  margin-top: 2em;
+  align-self: center;
+  margin-top: 0.5em;
   width: 50vw;
 }
 

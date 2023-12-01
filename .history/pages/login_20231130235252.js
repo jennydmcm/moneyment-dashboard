@@ -52,7 +52,7 @@ export default function Home() {
                         Greater Control of Your Finances
                     </h2>
 
-                    <Image className={styles.computer} src="/computer.png" width={570} height={329} />
+                    <Image className={styles.computer} src="/computer.png" width={588} height={329} />
 
                     <Image className={styles.icon} src="/logo.svg" width={48} height={48} />
 

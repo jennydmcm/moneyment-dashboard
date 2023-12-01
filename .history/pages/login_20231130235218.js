@@ -26,7 +26,7 @@ export default function Home() {
             <main className={styles.main}>
 
                 <div className={styles.login}>
-                    <Image className={styles.logo} src="/wordmark.svg" width={200} height={50} />
+                <Image className={styles.logo} src="/wordmark.svg" width={200} height={50} />
                     <div className={styles.title} >
                         <h2 className={styles.header}>Login</h2>
                         <h3 className={styles.subhead}>Enter your credentials to log in</h3>
@@ -46,13 +46,13 @@ export default function Home() {
                 </div >
 
                 <div className={styles.graphicContainer}>
-                    <Image className={styles.leaf} src="/leaf-bg.svg" width={700} height={600} /> 
+                    <Image className={styles.leaf} src="/leaf-bg.svg" width={700} height={580} /> 
 
                     <h2 className={styles.h1}>
                         Greater Control of Your Finances
                     </h2>
 
-                    <Image className={styles.computer} src="/computer.png" width={570} height={329} />
+                    <Image className={styles.computer} src="/computer.png" width={588} height={329} />
 
                     <Image className={styles.icon} src="/logo.svg" width={48} height={48} />
 

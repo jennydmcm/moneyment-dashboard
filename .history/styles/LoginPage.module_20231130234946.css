@@ -12,10 +12,10 @@
 .login {
     display: flex;
     flex-direction: column;
-    align-self: flex-start;
-    margin-top: 1.4em;
+    align-self: center;
+    margin-top: 0.5em;
     width: 50vw;
-  }
+}
 
 .header {
     font-size: 1.7em;
@@ -68,7 +68,7 @@
 }
 
 .title {
-    margin-top: 2.9em;
+    margin-top: 3em;
 }
 
 .graphicContainer {
@@ -121,13 +121,13 @@
     position: absolute;
     top: 2em;
     right: 2em;
-}
+  }
 
 .link {
     font-size: 14px;
     font-weight: 500;
 }
-  
+
 .href {
     font-weight: 700;
     color: #429488;

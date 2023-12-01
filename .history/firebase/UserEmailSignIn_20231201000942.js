@@ -38,7 +38,7 @@ export default function UserEmailSignIn() {
                             setLoginEmail(event.target.value);
                         }}
                     />
-
+                    
                     <div className={styles.inputTitle}>Password *</div>
                     <input
                         className={styles.password}
@@ -49,7 +49,6 @@ export default function UserEmailSignIn() {
                         }}
                     />
                 </div>
-                
                 <button
                     className={styles.register}
                     onClick={() => {
