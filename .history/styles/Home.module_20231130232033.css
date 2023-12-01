@@ -322,7 +322,7 @@
 }
 
 /* Small Desktops */
-@media screen and (min-width: 1100px) and (max-width: 1500px) { 
+@media screen and (min-width: 1100px) and (max-width: 1300px) { 
   .main {
     gap: 6em;
     height: 95vh;
