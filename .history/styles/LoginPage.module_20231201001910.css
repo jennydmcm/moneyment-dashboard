@@ -135,119 +135,17 @@
 
 
 
-/* Small Phone */
-@media screen and (max-width: 400px) { 
-    .main {
-        flex-direction: inherit;
-        gap: 0em;
-        justify-content: center;
-        height: 100vh;
-        margin-top: -1.5em;
-        margin-right: 0;
-        margin-bottom: 0;
-        margin-left: 0;
-    }
-  
-    .logo {
-        align-self: center;
-        width: 140px;
-        margin-bottom: 0em;
-    }
-    
-    .login {
-      width: 80vw;
-    }
-  
-    .title {
-        margin-top: 1.4em;
-    }
-    
-    .header {
-      font-size: 1.3em;
-    }
-  
-    .divider {
-      margin-bottom: -1em;
-    }
-  
-    .p {
-      font-size: 12px;
-      margin-left: 2em;
-      margin-right: 2em;
-    }
-    
-    .subhead {
-      font-size: 12px;
-    }
-    
-    .link {
-      font-size: 12px;
-    }
-  
-    .graphicContainer {
-      display: none;
-    }
-  }
-
-
-/* Large Phone */
-@media screen and (min-width: 400px) and (max-width: 600px) { 
-    .main {
-      flex-direction: inherit;
-      gap: 0em;
-      justify-content: center;
-      height: 95vh;
-      margin-top: 1em;
-      margin-right: 0;
-      margin-bottom: 0;
-      margin-left: 0;
-    }
-  
-    .logo {
-      align-self: center;
-      width: 200px;
-      margin-bottom: 0em;
-    }
-    
-    .login {
-      width: 80vw;
-    }
-    
-    .header {
-      font-size: 1.5em;
-    }
-  
-    .p {
-      margin-left: 2em;
-      margin-right: 2em;
-    }
-    
-    .subhead {
-      font-size: 14px;
-    }
-    
-    .link {
-      font-size: 14px;
-    }
-  
-    .graphicContainer {
-      display: none;
-    }
-  }
 
 
 /* Small Tablets */
 @media screen and (min-width: 600px) and (max-width: 830px) { 
     .main {
-        flex-direction: inherit;
-        gap: 0em;
-        justify-content: center;
-        height: 90vh;
-        margin-top: 2em;
-        margin-bottom: 0;
-        margin-right: 0;
-        margin-left: 0;
-      }
+      flex-direction: inherit;
+      gap: 0em;
+      justify-content: center;
+      height: 90vh;
+      margin: 0;
+    }
   
     .logo {
       align-self: center;

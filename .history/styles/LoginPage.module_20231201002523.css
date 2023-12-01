@@ -152,14 +152,14 @@
         align-self: center;
         width: 140px;
         margin-bottom: 0em;
-    }
+      }
     
     .login {
       width: 80vw;
     }
   
     .title {
-        margin-top: 1.4em;
+      margin-top: 1.5em;
     }
     
     .header {
@@ -167,7 +167,7 @@
     }
   
     .divider {
-      margin-bottom: -1em;
+      margin-bottom: -0.5em;
     }
   
     .p {

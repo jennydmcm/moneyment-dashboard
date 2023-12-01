@@ -135,8 +135,8 @@
     flex-direction: inherit;
     gap: 0em;
     justify-content: center;
-    height: 100vh;
-    margin-top: -1.5em;
+    height: 80vh;
+    margin-top: 0;
     margin-right: 0;
     margin-bottom: 0;
     margin-left: 0;
@@ -144,7 +144,7 @@
 
   .logo {
     align-self: center;
-    width: 140px;
+    width: 150px;
     margin-bottom: 0em;
   }
   
@@ -153,7 +153,7 @@
   }
 
   .title {
-    margin-top: 1.4em;
+    margin-top: 1.5em;
   }
   
   .header {
@@ -161,7 +161,7 @@
   }
 
   .divider {
-    margin-bottom: -1em;
+    margin-bottom: -0.5em;
   }
 
   .p {

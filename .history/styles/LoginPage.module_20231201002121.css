@@ -138,20 +138,17 @@
 /* Small Phone */
 @media screen and (max-width: 400px) { 
     .main {
-        flex-direction: inherit;
-        gap: 0em;
-        justify-content: center;
-        height: 100vh;
-        margin-top: -1.5em;
-        margin-right: 0;
-        margin-bottom: 0;
-        margin-left: 0;
+      flex-direction: inherit;
+      gap: 0em;
+      justify-content: center;
+      height: 105vh;
+      margin: 0;
     }
   
     .logo {
-        align-self: center;
-        width: 140px;
-        margin-bottom: 0em;
+      align-self: center;
+      width: 150px;
+      margin-bottom: 0em;
     }
     
     .login {
@@ -159,7 +156,7 @@
     }
   
     .title {
-        margin-top: 1.4em;
+      margin-top: 1.5em;
     }
     
     .header {
@@ -167,7 +164,7 @@
     }
   
     .divider {
-      margin-bottom: -1em;
+      margin-bottom: -0.5em;
     }
   
     .p {

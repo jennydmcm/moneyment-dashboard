@@ -112,17 +112,17 @@
     }
     
     .password {
-        height: 8px;
+        padding: 12px;
         font-size: 12px !important;    
     }
     
     .firstName {
-        height: 8px;
+        padding: 12px;
         font-size: 12px !important;
     }
     
     .lastName {
-        height: 8px;
+        padding: 12px;
         font-size: 12px !important;
     }
     
