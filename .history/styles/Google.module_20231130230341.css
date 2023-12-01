@@ -44,7 +44,7 @@
 
 
 /* Small Tablets */
-@media screen and (min-width: 600px) and (max-width: 830px) { 
+@media screen and (min-width: 700px) and (max-width: 1000px) { 
     .button {
         padding-top: 32px;
         padding-bottom: 32px;
@@ -54,7 +54,7 @@
 
 
 /* Large Tablets */
-@media screen and (min-width: 830px) and (max-width: 1100px)  { 
+@media screen and (min-width: 1000px) and (max-width: 2000px)  { 
     .button {
         padding-top: 32px;
         padding-bottom: 32px;

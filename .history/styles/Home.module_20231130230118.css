@@ -229,7 +229,7 @@
 
 
 /* Small Tablets */
-@media screen and (min-width: 600px) and (max-width: 830px) { 
+@media screen and (min-width: 600px) and (max-width: 800px) { 
   .main {
     flex-direction: inherit;
     gap: 0em;
@@ -276,7 +276,7 @@
 
 
 /* Large Tablets */
-@media screen and (min-width: 830px) and (max-width: 1100px) { 
+@media screen and (min-width: 800px) and (max-width: 1000px) { 
   .main {
     flex-direction: inherit;
     gap: 0em;
@@ -321,46 +321,48 @@
   }
 }
 
-/* Small Desktops */
-@media screen and (min-width: 1100px) and (max-width: 2000px) { 
+/* Small Desktop */
+@media screen and (min-width: 800px) and (max-width: 1000px) { 
   .main {
-    gap: 6em;
-    height: 95vh;
+    flex-direction: inherit;
+    gap: 0em;
+    justify-content: center;
+    height: 90vh;
+    margin: 0;
   }
-  
-  .graphicContainer {
-    border-radius: 24px;
-    height: 95vh;
-    width: 100vw;
-  }
-  
-  .h1 {
-    font-size: 32px;
-    width: 350px;
-    margin-left: 2.2em;
-  }
-  
-  .leaf {
-    width: 500px;
-  }
-  
-  .computer {
-    width: 450px;
-    height: 280px;
-  }
-  
-  .description {
-    font-size: 16px;
-    width: 430px;
-  }
-  
-  .warning {
-    color: white;
-    font-size: 12px;
-    width: 430px;
+
+  .logo {
     align-self: center;
-    font-weight: 200;
-    z-index: 2;
+    width: 250px;
+    margin-bottom: 5em;
   }
   
+  .login {
+    width: 70vw;
+  }
+  
+  .header {
+    font-size: 2.5em;
+  }
+
+  .subhead {
+    font-size: 24px;
+  }
+  
+  .hr {
+    width: 100%;
+  }
+  
+  .p {
+    margin-left: 3em;
+    margin-right: 3em;
+  }
+  
+  .link {
+    font-size: 20px;
+  }
+
+  .graphicContainer {
+    display: none;
+  }
 }

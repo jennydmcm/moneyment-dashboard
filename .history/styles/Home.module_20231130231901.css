@@ -363,4 +363,19 @@
     z-index: 2;
   }
   
+  .icon {
+    position: absolute;
+    top: 2em;
+    right: 2em;
+  }
+  
+  .link {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .href {
+    font-weight: 700;
+    color: #429488;
+  }
 }

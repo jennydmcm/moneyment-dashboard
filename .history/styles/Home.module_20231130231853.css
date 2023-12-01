@@ -357,10 +357,25 @@
   .warning {
     color: white;
     font-size: 12px;
-    width: 430px;
+    width: 410px;
     align-self: center;
     font-weight: 200;
     z-index: 2;
   }
   
+  .icon {
+    position: absolute;
+    top: 2em;
+    right: 2em;
+  }
+  
+  .link {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .href {
+    font-weight: 700;
+    color: #429488;
+  }
 }

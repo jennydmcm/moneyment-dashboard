@@ -181,7 +181,7 @@
 
 
 /* Small Tablets */
-@media screen and (min-width: 600px) and (max-width: 830px) { 
+@media screen and (min-width: 600px) and (max-width: 820px) { 
     .main {
         width: 100%;
     }
@@ -220,7 +220,7 @@
 
 
 /* Large Tablets */
-@media screen and (min-width: 830px) and (max-width: 1100px)  { 
+@media screen and (min-width: 820px) and (max-width: 1100px)  { 
     .main {
         width: 100%;
     }

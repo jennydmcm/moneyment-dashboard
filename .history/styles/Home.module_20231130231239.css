@@ -325,42 +325,74 @@
 @media screen and (min-width: 1100px) and (max-width: 2000px) { 
   .main {
     gap: 6em;
-    height: 95vh;
+    height: 105vh;
   }
   
   .graphicContainer {
     border-radius: 24px;
-    height: 95vh;
+    height: 100vh;
     width: 100vw;
   }
   
   .h1 {
     font-size: 32px;
     width: 350px;
-    margin-left: 2.2em;
+    margin-left: 2em;
+  }
+
+  
+  .title {
+    margin-top: 3em;
   }
   
   .leaf {
-    width: 500px;
+    position: absolute;  
+    align-self: center;
+    justify-self: center;
+    max-width: 100%;
+    z-index: 1;
   }
   
   .computer {
-    width: 450px;
-    height: 280px;
+    display: flex;
+    align-self: center;
+    max-height: 100%;
+    z-index: 999;
+  
   }
   
   .description {
-    font-size: 16px;
-    width: 430px;
+    font-size: 20px;
+    color: white;
+    font-weight: 300;
+    line-height: 1.5em;
+    width: 540px;
+    align-self: center;
+    z-index: 2;
   }
   
   .warning {
     color: white;
     font-size: 12px;
-    width: 430px;
+    width: 550px;
     align-self: center;
     font-weight: 200;
     z-index: 2;
   }
   
+  .icon {
+    position: absolute;
+    top: 2em;
+    right: 2em;
+  }
+  
+  .link {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .href {
+    font-weight: 700;
+    color: #429488;
+  }
 }
