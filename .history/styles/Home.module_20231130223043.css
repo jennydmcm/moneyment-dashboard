@@ -137,30 +137,22 @@
     flex-direction: inherit;
     gap: 0em;
     justify-content: center;
-    height: 105vh;
+    height: 95vh;
     margin: 0;
   }
 
   .logo {
     align-self: center;
-    width: 150px;
+    width: 200px;
     margin-bottom: 0em;
   }
   
   .login {
     width: 80vw;
   }
-
-  .title {
-    margin-top: 1.5em;
-  }
   
   .header {
-    font-size: 1.3em;
-  }
-
-  .divider {
-    margin-bottom: -0.5em;
+    font-size: 1.4em;
   }
 
   .p {
@@ -170,11 +162,11 @@
   }
   
   .subhead {
-    font-size: 12px;
+    font-size: 14px;
   }
   
   .link {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .graphicContainer {

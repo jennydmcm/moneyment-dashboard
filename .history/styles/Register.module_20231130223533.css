@@ -86,61 +86,14 @@
 
 .register:hover {
     background-color: #1e5e55;
+
 }
-
-
 
 /* Small Phone */
 
 @media screen and (max-width: 400px) { 
-    .main {
-        width: 100%;
-    }
-
-    .name {
-        display: flex;
-        flex-direction: column;
-        gap: 0em;
-    }
     
-    .p {
-        font-size: 12px !important;    
-    }
-    
-    .email {
-        padding: 12px;
-        font-size: 12px !important;    
-    }
-    
-    .password {
-        padding: 12px;
-        font-size: 12px !important;    
-    }
-    
-    .firstName {
-        padding: 12px;
-        font-size: 12px !important;
-    }
-    
-    .lastName {
-        padding: 12px;
-        font-size: 12px !important;
-    }
-    
-    .inputTitle {
-        font-size: 12px !important;
-        margin-top: 16px !important;
-        padding-bottom: 4px;
-    }
-
-    .register {
-        height: 44px;
-        margin-top: 24px;
-        font-size: 14px;
-    }
 }
-
-
 
 /* Large Phone */
 
@@ -181,7 +134,6 @@
         padding-bottom: 4px;
     }
 }
-
 
 
 /* Small Tablets */

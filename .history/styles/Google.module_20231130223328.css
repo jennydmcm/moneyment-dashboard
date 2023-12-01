@@ -22,14 +22,18 @@
 
 @media screen and (max-width: 400px) { 
     .button {
-        padding: 0;
-        height: 44px;
-        border-radius: 10px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    
+        border-radius: 16px;
+        border: 1px solid #A9A9A9;
+        background: #FFF;
         font-size: 12px;
+        font-weight: 500;
     }
     
     .logo {
-        width: 18px;
+        width: 20px;
         margin-right: 16px;
     }
 }

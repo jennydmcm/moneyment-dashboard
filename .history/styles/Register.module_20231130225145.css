@@ -86,6 +86,7 @@
 
 .register:hover {
     background-color: #1e5e55;
+
 }
 
 
@@ -131,12 +132,6 @@
         font-size: 12px !important;
         margin-top: 16px !important;
         padding-bottom: 4px;
-    }
-
-    .register {
-        height: 44px;
-        margin-top: 24px;
-        font-size: 14px;
     }
 }
 

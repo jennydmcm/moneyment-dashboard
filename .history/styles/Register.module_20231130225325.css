@@ -136,7 +136,10 @@
     .register {
         height: 44px;
         margin-top: 24px;
-        font-size: 14px;
+        text-align: center;
+        justify-content: center;
+        font-size: 16px;
+        font-weight: 700;
     }
 }
 

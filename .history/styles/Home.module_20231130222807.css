@@ -132,61 +132,15 @@
 
 /* Small Phone */
 
-@media screen and (max-width: 400px) { 
-  .main {
-    flex-direction: inherit;
-    gap: 0em;
-    justify-content: center;
-    height: 105vh;
-    margin: 0;
-  }
+@media screen and (max-width: 700px) { 
 
-  .logo {
-    align-self: center;
-    width: 150px;
-    margin-bottom: 0em;
-  }
-  
-  .login {
-    width: 80vw;
-  }
-
-  .title {
-    margin-top: 1.5em;
-  }
-  
-  .header {
-    font-size: 1.3em;
-  }
-
-  .divider {
-    margin-bottom: -0.5em;
-  }
-
-  .p {
-    font-size: 12px;
-    margin-left: 2em;
-    margin-right: 2em;
-  }
-  
-  .subhead {
-    font-size: 12px;
-  }
-  
-  .link {
-    font-size: 12px;
-  }
-
-  .graphicContainer {
-    display: none;
-  }
 }
 
 
 
 /* Large Phone */
 
-@media screen and (min-width: 400px) and (max-width: 700px) { 
+@media screen and (min-width: 700px) and (max-width: 700px) { 
   .main {
     flex-direction: inherit;
     gap: 0em;

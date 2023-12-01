@@ -137,22 +137,18 @@
     flex-direction: inherit;
     gap: 0em;
     justify-content: center;
-    height: 105vh;
+    height: 100vh;
     margin: 0;
   }
 
   .logo {
     align-self: center;
-    width: 150px;
+    width: 200px;
     margin-bottom: 0em;
   }
   
   .login {
     width: 80vw;
-  }
-
-  .title {
-    margin-top: 1.5em;
   }
   
   .header {
@@ -160,7 +156,12 @@
   }
 
   .divider {
-    margin-bottom: -0.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 0.5em;
   }
 
   .p {

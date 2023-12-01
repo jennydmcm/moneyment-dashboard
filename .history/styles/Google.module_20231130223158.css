@@ -21,18 +21,6 @@
 /* Small Phone */
 
 @media screen and (max-width: 400px) { 
-    .button {
-        padding: 0;
-        height: 44px;
-        border-radius: 10px;
-        font-size: 12px;
-    }
-    
-    .logo {
-        width: 18px;
-        margin-right: 16px;
-    }
-}
 
 
 /* Large Phone */

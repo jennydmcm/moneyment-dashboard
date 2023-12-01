@@ -86,6 +86,7 @@
 
 .register:hover {
     background-color: #1e5e55;
+
 }
 
 
@@ -118,25 +119,17 @@
     }
     
     .firstName {
-        padding: 12px;
         font-size: 12px !important;
     }
     
     .lastName {
-        padding: 12px;
         font-size: 12px !important;
     }
     
     .inputTitle {
         font-size: 12px !important;
-        margin-top: 16px !important;
+        margin-top: 18px;
         padding-bottom: 4px;
-    }
-
-    .register {
-        height: 44px;
-        margin-top: 24px;
-        font-size: 14px;
     }
 }
 
