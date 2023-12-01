@@ -91,46 +91,8 @@
 }
 
 
-
 /* Tablets */
 
 @media screen and (min-width: 1000px) and (max-width: 2000px)  { 
-    .main {
-        width: 100%;
-    }
     
-    .p {
-        font-size: 20px;
-    }
-    
-    .email {
-        font-size: 20px;
-    }
-    
-    .password {
-        font-size: 20px;        
-    }
-    
-    .firstName {
-        font-size: 20px;
-    }
-    
-    .lastName {
-        font-size: 20px;
-    }
-    
-    .inputTitle {
-        font-size: 20px;
-        margin-top: 40px;
-    }
-    
-    .register {
-        padding-top: 24px;
-        padding-bottom: 24px;
-        font-size: 24px;
-    }
-    
-    .register:hover {
-        background-color: #1e5e55; 
-    }
 }

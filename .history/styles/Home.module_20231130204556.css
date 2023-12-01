@@ -140,47 +140,6 @@
 
 /* Tablets */
 
-@media screen and (min-width: 1000px) and (max-width: 2000px)  { 
-  .main {
-    flex-direction: inherit;
-    gap: 0em;
-    justify-content: center;
-    height: 90vh;
-    margin: 0;
-  }
-
-  .logo {
-    align-self: center;
-    width: 250px;
-    margin-bottom: 5em;
-  }
+@media screen and (min-width: 577px) and (max-width: 768px) { 
   
-  .login {
-    width: 70vw;
-  }
-  
-  .header {
-    font-size: 2.5em;
-  }
-
-  .subhead {
-    font-size: 24px;
-  }
-  
-  .hr {
-    width: 17em;
-  }
-  
-  .p {
-    margin-left: 0.5em;
-    margin-right: 0.5em;
-  }
-  
-  .link {
-    font-size: 20px;
-  }
-
-  .graphicContainer {
-    display: none;
-  }
 }

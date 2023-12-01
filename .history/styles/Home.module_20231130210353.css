@@ -145,42 +145,76 @@
     flex-direction: inherit;
     gap: 0em;
     justify-content: center;
-    height: 90vh;
+    height: 100vh;
     margin: 0;
   }
 
   .logo {
     align-self: center;
-    width: 250px;
-    margin-bottom: 5em;
+    width: 700px;
   }
   
   .login {
-    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    width: 50vw;
+  }
+  
+  .graphicContainer {
+    display: none;
   }
   
   .header {
-    font-size: 2.5em;
-  }
+    align-self: center;
 
-  .subhead {
-    font-size: 24px;
+    font-size: 1.7em;
+    font-weight: 700;
+    margin: 0;
+  }
+  
+  .divider {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 0.5em;
   }
   
   .hr {
-    width: 17em;
+    border: 0.5px solid #c6c5c5;
+    width: 12em;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    align-self: center;
   }
   
   .p {
-    margin-left: 0.5em;
-    margin-right: 0.5em;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
+    color: #A9A9A9;
+  }
+  
+  .subhead {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  .title {
+    margin-top: 3em;
   }
   
   .link {
-    font-size: 20px;
+    font-size: 14px;
+    font-weight: 500;
   }
-
-  .graphicContainer {
-    display: none;
+  
+  .href {
+    font-weight: 700;
+    color: #429488;
   }
 }

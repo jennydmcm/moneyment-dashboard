@@ -20,7 +20,6 @@
 
 
 
-
 /* Tablets */
 
 @media screen and (min-width: 1000px) and (max-width: 2000px)  { 
@@ -29,4 +28,9 @@
         padding-bottom: 32px;
         font-size: 20px;
     }
+    
+    .logo {
+        margin-right: 24px;
+    }
+
 }

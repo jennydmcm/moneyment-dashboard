@@ -20,13 +20,23 @@
 
 
 
-
 /* Tablets */
 
 @media screen and (min-width: 1000px) and (max-width: 2000px)  { 
     .button {
         padding-top: 32px;
-        padding-bottom: 32px;
-        font-size: 20px;
+        padding-bottom:320px;
+        margin-top: 0.5em;
+    
+        border-radius: 16px;
+        border: 1px solid #A9A9A9;
+        background: #FFF;
+        font-size: 14px;
+        font-weight: 500;
     }
+    
+    .logo {
+        margin-right: 24px;
+    }
+
 }

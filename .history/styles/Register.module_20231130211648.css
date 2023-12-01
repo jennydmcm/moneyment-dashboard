@@ -96,41 +96,94 @@
 
 @media screen and (min-width: 1000px) and (max-width: 2000px)  { 
     .main {
-        width: 100%;
+        /* display: flex;
+        flex-direction: column; */
+        /* width: 50vh; */
+    }
+    
+    .require {
+        margin-top: 0em;
     }
     
     .p {
         font-size: 20px;
+        margin: 0;
+        color: #707070;
+    }
+    
+    .name {
+        display: flex;
+        flex-direction: row;
+        gap: 2em;
+    
+    }
+    
+    .name_section {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+    }
+    
+    .email_password {
+        display: flex;
+        flex-direction: column;
     }
     
     .email {
-        font-size: 20px;
+        padding: 14px 16px;
+        border-radius: 5px;
+        border: 1px solid #a4a4a4;
+        font-size: 14px;
+        font-weight: 500;
     }
     
     .password {
-        font-size: 20px;        
+        padding: 14px 16px;
+        border-radius: 5px;
+        border: 1px solid #a4a4a4;
+        font-size: 14px;
+        font-weight: 500;
     }
     
     .firstName {
-        font-size: 20px;
+        padding: 14px 16px;
+        border-radius: 5px;
+        border: 1px solid #a4a4a4;
+        font-size: 14px;
+        font-weight: 500;
     }
     
     .lastName {
-        font-size: 20px;
+        padding: 14px 16px;
+        border-radius: 5px;
+        border: 1px solid #a4a4a4;
+        font-size: 14px;
+        font-weight: 500;
     }
     
     .inputTitle {
-        font-size: 20px;
-        margin-top: 40px;
+        font-size: 14px;
+        margin-top: 24px;
+        padding-bottom: 8px;
     }
     
     .register {
-        padding-top: 24px;
-        padding-bottom: 24px;
-        font-size: 24px;
+        display: flex;
+        background-color: #429488;
+        color: white;
+        border: none;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        border-radius: 10px;
+        margin-top: 32px;
+        text-align: center;
+        justify-content: center;
+        font-size: 16px;
+        font-weight: 700;
     }
     
     .register:hover {
-        background-color: #1e5e55; 
+        background-color: #1e5e55;
+    
     }
 }

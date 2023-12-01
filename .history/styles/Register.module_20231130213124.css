@@ -108,15 +108,27 @@
     }
     
     .password {
+        /* padding: 14px 16px;
+        border-radius: 5px;
+        border: 1px solid #a4a4a4; */
         font-size: 20px;        
+        /* font-weight: 500; */
     }
     
     .firstName {
+        /* padding: 14px 16px;
+        border-radius: 5px;
+        border: 1px solid #a4a4a4; */
         font-size: 20px;
+        /* font-weight: 500; */
     }
     
     .lastName {
+        /* padding: 14px 16px;
+        border-radius: 5px;
+        border: 1px solid #a4a4a4; */
         font-size: 20px;
+        /* font-weight: 500; */
     }
     
     .inputTitle {
