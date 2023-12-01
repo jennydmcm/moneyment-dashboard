@@ -1,0 +1,212 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  gap: 8em;
+  justify-content: space-between;
+  align-content: center;
+  height: 98vh;
+  margin-right: 1vh;
+  margin-left: 20vh;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  margin-top: 0.5em;
+  width: 50vw;
+}
+
+.graphicContainer {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+  background-color: #429488;
+  border-radius: 24px;
+  height: 96vh;
+  width: 89vw;
+  z-index: 0;
+}
+
+.header {
+  font-size: 1.7em;
+  font-weight: 700;
+  margin: 0;
+}
+
+.divider {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 0.5em;
+}
+
+.hr {
+  border: 0.5px solid #c6c5c5;
+  width: 12em;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  align-self: center;
+}
+
+.p {
+  margin-top: 1em;
+  margin-bottom: 2em;
+  margin-left: 1em;
+  margin-right: 1em;
+  color: #A9A9A9;
+}
+
+.h1 {
+  font-size: 40px;
+  width: 400px;
+  margin-left: 2.5em;
+  font-weight: 700;
+  color: white;
+  z-index: 1;
+}
+
+.subhead {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.title {
+  margin-top: 3em;
+}
+
+.leaf {
+  position: absolute;  
+  align-self: center;
+  justify-self: center;
+  max-width: 100%;
+  z-index: 1;
+}
+
+.computer {
+  display: flex;
+  align-self: center;
+  max-height: 100%;
+  z-index: 999;
+
+}
+
+.description {
+  font-size: 20px;
+  color: white;
+  font-weight: 300;
+  line-height: 1.5em;
+  width: 540px;
+  align-self: center;
+  z-index: 2;
+}
+
+.warning {
+  color: white;
+  font-size: 12px;
+  width: 550px;
+  align-self: center;
+  font-weight: 200;
+  z-index: 2;
+}
+
+.icon {
+  position: absolute;
+  top: 2em;
+  right: 2em;
+}
+
+.link {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.href {
+  font-weight: 700;
+  color: #429488;
+}
+
+
+/* Phones */
+
+@media screen and (max-width: 576px) { 
+
+}
+
+
+
+/* Tablets */
+
+@media screen and (min-width: 1000px) and (max-width: 2000px)  { 
+  .main {
+    flex-direction: inherit;
+    gap: 0em;
+    justify-content: center;
+    height: 90vh;
+    margin: 0;
+  }
+
+  .logo {
+    align-self: center;
+    width: 250px;
+    margin-bottom: 5em;
+  }
+  
+  .login {
+    width: 70vw;
+  }
+  
+  .header {
+    font-size: 2.5em;
+  }
+
+  .subhead {
+    font-size: 24px;
+  }
+  
+  .divider {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 0.5em;
+  }
+  
+  .hr {
+    border: 0.5px solid #c6c5c5;
+    width: 12em;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    align-self: center;
+  }
+  
+  .p {
+    margin-top: 1em;
+    margin-bottom: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
+    color: #A9A9A9;
+  }
+  
+  .title {
+    margin-top: 3em;
+  }
+  
+  .link {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .href {
+    font-weight: 700;
+    color: #429488;
+  }
+
+  .graphicContainer {
+    display: none;
+  }
+}
