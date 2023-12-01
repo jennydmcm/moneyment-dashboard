@@ -1,0 +1,127 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  /* row-gap: 5em; */
+  gap: 8em;
+  justify-content: space-between;
+  align-content: center;
+  height: 98vh;
+  margin-right: 1vh;
+  margin-left: 20vh;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  margin-top: 0.5em;
+  /* height: 96vh; */
+  width: 50vw;
+}
+
+.graphicContainer {
+  display: flex;
+  align-self: center;
+  background-color: #429488;
+  border-radius: 24px;
+  height: 96vh;
+  width: 89vw;
+}
+
+.header {
+  font-size: 1.7em;
+  font-weight: 700;
+  margin: 0;
+}
+
+.divider {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 0.5em;
+}
+
+.hr {
+  border: 0.5px solid #c6c5c5;
+  width: 12em;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  align-self: center;
+}
+
+.p {
+  margin-top: 1em;
+  margin-bottom: 2em;
+  margin-left: 1em;
+  margin-right: 1em;
+  color: #A9A9A9;
+}
+
+.h1 {
+  font-size: 40px;
+  width: 400px;
+  margin-left: 6.5rem;
+  margin-top: 7rem;
+  font-weight: 700;
+  color: white;
+  position: absolute;
+}
+
+.subhead {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.title {
+  margin-top: 3em;
+}
+
+.leaf {
+  margin-top: 130px;
+  margin-left: 20px;
+  position: absolute;
+}
+
+.computer {
+  position: relative;
+  margin-top: 250px;
+  margin-left: 60px;
+}
+
+.description {
+  position: relative;
+  font-size: 16px;
+  color: white;
+  font-weight: 400;
+  line-height: 1.5em;
+  width: 500px;
+  margin-left: 95px;
+}
+
+.warning {
+  color: white;
+  font-size: 12px;
+  position: relative;
+  width: 575px;
+  margin-top: 30px;
+  margin-left: 95px;
+  font-weight: 200;
+}
+
+.icon {
+  position: absolute;
+  top: 2em;
+  right: 2em;
+}
+
+.link {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.href {
+  font-weight: 700;
+  color: #429488;
+}
