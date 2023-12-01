@@ -66,11 +66,20 @@
 /* Small Desktops */
 @media screen and (min-width: 1300px) and (max-width: 1500px) {
     .button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-top: 0.5em;
+    
         border-radius: 10px;
         font-size: 14px;
+        font-weight: 500;
     }
     
     .logo {
-        margin-right: 16px;
+        margin-right: 24px;
     }
 }

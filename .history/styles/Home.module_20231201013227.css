@@ -41,7 +41,7 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  margin-top: 0em;
+  margin-top: 0.5em;
 }
 
 .hr {
@@ -329,12 +329,11 @@
   }
 }
 
-
 /* X-Small Desktops */
 @media screen and (min-width: 1100px) and (max-width: 1300px) { 
   .main {
     gap: 4em;
-    height: 95vh;
+    height: 100vh;
   }
   
   .graphicContainer {
@@ -374,15 +373,11 @@
   
 }
 
-
 /* Small Desktops */
 @media screen and (min-width: 1300px) and (max-width: 1500px) { 
   .main {
-    gap: 4em;
-  }
-
-  .divider {
-    margin-top: 0em;
+    gap: 5em;
+    /* height: 95vh; */
   }
   
   .h1 {

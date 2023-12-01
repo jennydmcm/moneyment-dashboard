@@ -29,7 +29,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    margin-top: 0em;
+    margin-top: 0.5em;
 }
   
 .hr {
@@ -337,9 +337,9 @@
 
 
 /* X-Small Desktops */
-@media screen and (min-width: 1100px) and (max-width: 1300px) { 
+@media screen and (min-width: 1100px) and (max-width: 1500px) { 
     .main {
-      gap: 4em;
+      gap: 6em;
       height: 95vh;
     }
     
@@ -384,11 +384,8 @@
 /* Small Desktops */
 @media screen and (min-width: 1300px) and (max-width: 1500px) { 
     .main {
-      gap: 4em;
-    }
-  
-    .divider {
-      margin-top: 0em;
+      gap: 5em;
+      /* height: 95vh; */
     }
     
     .h1 {
@@ -418,5 +415,5 @@
       z-index: 2;
     }
     
-  }
+}
   
