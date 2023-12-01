@@ -5,7 +5,7 @@
 }
 
 .require {
-    margin-top: -1em;
+    margin-top: 0em;
 }
 
 .p {
@@ -238,38 +238,4 @@
         margin-top: 20px;
         padding-bottom: 4px;
     }
-}
-
-
-/* Small Desktops */
-@media screen and (min-width: 1300px) and (max-width: 1500px) {
-    .require {
-        margin-top: -1em;
-        margin-bottom: 0.5em;
-    }
-    
-    .email {
-        padding: 12px 14px;
-    }
-    
-    .password {
-        padding: 12px 14px;
-    }
-    
-    .firstName {
-        padding: 12px 14px;
-    }
-    
-    .lastName {
-        padding: 12px 14px;
-    }
-    
-    .inputTitle {
-        margin-top: 20px;
-        padding-bottom: 4px;
-    }
-
-    .register {
-        margin-top: 24px;
-    }
-}
+  }

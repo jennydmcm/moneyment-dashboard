@@ -41,7 +41,7 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  margin-top: 0em;
+  margin-top: 0.5em;
 }
 
 .hr {
@@ -329,7 +329,6 @@
   }
 }
 
-
 /* X-Small Desktops */
 @media screen and (min-width: 1100px) and (max-width: 1300px) { 
   .main {
@@ -374,7 +373,6 @@
   
 }
 
-
 /* Small Desktops */
 @media screen and (min-width: 1300px) and (max-width: 1500px) { 
   .main {
@@ -382,7 +380,12 @@
   }
 
   .divider {
-    margin-top: 0em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 0.5em;
   }
   
   .h1 {
