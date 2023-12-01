@@ -130,45 +130,110 @@
 }
 
 
-/* Small Tablets */
+/* Small Phones */
 
-@media screen and (min-width: 700px) and (max-width: 1000px) { 
+@media screen and (max-width: 1000px) { 
   .main {
     flex-direction: inherit;
     gap: 0em;
     justify-content: center;
     height: 90vh;
     margin: 0;
+
+    /* display: flex;
+    flex-direction: row;
+    gap: 8em;
+    justify-content: space-between;
+    align-content: center;
+    height: 98vh;
+    margin-right: 1vh;
+    margin-left: 20vh; */
   }
 
   .logo {
     align-self: center;
     width: 250px;
-    margin-bottom: 3em;
+    margin-bottom: 5em;
   }
   
   .login {
-    width: 80vw;
+    width: 70vw;
+
+    /* display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-top: 0.5em;
+    width: 50vw; */
   }
   
   .header {
-    font-size: 2em;
+    font-size: 2.5em;
+
+    /* font-size: 1.7em;
+    font-weight: 700;
+    margin: 0; */
   }
   
   .subhead {
-    font-size: 20px;
+    font-size: 24px;
+
+    /* font-size: 16px;
+    font-weight: 400; */
+  }
+
+  .divider {
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 0.5em; */
   }
   
   .hr {
     width: 17em;
+
+    /* border: 0.5px solid #c6c5c5;
+    width: 12em;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    align-self: center; */
+  }
+  
+  .p {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+
+    /* margin-top: 1em;
+    margin-bottom: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
+    color: #A9A9A9; */
+  }
+  
+  .h1 {
+    /* font-size: 40px;
+    width: 400px;
+    margin-left: 2.5em;
+    font-weight: 700;
+    color: white;
+    z-index: 1; */
+  }
+  
+  .title {
+    /* margin-top: 3em; */
   }
   
   .link {
-    font-size: 18px;
-  }
+    font-size: 20px;
 
-  .graphicContainer {
-    display: none;
+    /* font-size: 14px;
+    font-weight: 500; */
+  }
+  
+  .href {
+    /* font-weight: 700;
+    color: #429488; */
   }
 }
 

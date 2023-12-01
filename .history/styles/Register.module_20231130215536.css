@@ -121,13 +121,27 @@
     
     .inputTitle {
         font-size: 18px;
-        margin-top: 32px;
+        margin-top: 40px;
     }
     
     .register {
-        padding-top: 20px;
-        padding-bottom: 20px;
-        font-size: 20px;
+        /* display: flex;
+        background-color: #429488;
+        color: white;
+        border: none;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        border-radius: 10px;
+        margin-top: 32px;
+        text-align: center;
+        justify-content: center;
+        font-size: 16px;
+        font-weight: 700; */
+    }
+    
+    .register:hover {
+        /* background-color: #1e5e55; */
+    
     }
 }
 
@@ -169,5 +183,9 @@
         padding-top: 24px;
         padding-bottom: 24px;
         font-size: 24px;
+    }
+    
+    .register:hover {
+        background-color: #1e5e55; 
     }
 }

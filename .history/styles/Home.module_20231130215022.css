@@ -166,6 +166,11 @@
   .link {
     font-size: 18px;
   }
+  
+  .href {
+    /* font-weight: 700;
+    color: #429488; */
+  }
 
   .graphicContainer {
     display: none;

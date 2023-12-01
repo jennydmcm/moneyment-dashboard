@@ -19,15 +19,6 @@
 }
 
 
-/* Small Tablets */
-
-@media screen and (min-width: 700px) and (max-width: 1000px) { 
-    .button {
-        padding-top: 32px;
-        padding-bottom: 32px;
-        font-size: 20px;
-    }
-}
 
 
 /* Large Tablets */

@@ -163,8 +163,34 @@
     width: 17em;
   }
   
+  .p {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+  }
+  
+  .h1 {
+    /* font-size: 40px;
+    width: 400px;
+    margin-left: 2.5em;
+    font-weight: 700;
+    color: white;
+    z-index: 1; */
+  }
+  
+  .title {
+    /* margin-top: 3em; */
+  }
+  
   .link {
-    font-size: 18px;
+    font-size: 20px;
+
+    /* font-size: 14px;
+    font-weight: 500; */
+  }
+  
+  .href {
+    /* font-weight: 700;
+    color: #429488; */
   }
 
   .graphicContainer {

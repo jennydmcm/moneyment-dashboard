@@ -165,6 +165,14 @@
   
   .link {
     font-size: 18px;
+
+    /* font-size: 14px;
+    font-weight: 500; */
+  }
+  
+  .href {
+    /* font-weight: 700;
+    color: #429488; */
   }
 
   .graphicContainer {

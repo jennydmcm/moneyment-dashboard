@@ -121,13 +121,18 @@
     
     .inputTitle {
         font-size: 18px;
-        margin-top: 32px;
+        margin-top: 40px;
     }
     
     .register {
-        padding-top: 20px;
-        padding-bottom: 20px;
+        padding-top: 24px;
+        padding-bottom: 24px;
         font-size: 20px;
+    }
+    
+    .register:hover {
+        /* background-color: #1e5e55; */
+    
     }
 }
 
@@ -169,5 +174,9 @@
         padding-top: 24px;
         padding-bottom: 24px;
         font-size: 24px;
+    }
+    
+    .register:hover {
+        background-color: #1e5e55; 
     }
 }

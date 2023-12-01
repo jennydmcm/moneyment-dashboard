@@ -129,6 +129,11 @@
         padding-bottom: 20px;
         font-size: 20px;
     }
+    
+    .register:hover {
+        /* background-color: #1e5e55; */
+    
+    }
 }
 
 
@@ -169,5 +174,9 @@
         padding-top: 24px;
         padding-bottom: 24px;
         font-size: 24px;
+    }
+    
+    .register:hover {
+        background-color: #1e5e55; 
     }
 }
