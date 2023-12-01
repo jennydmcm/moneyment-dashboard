@@ -23,7 +23,11 @@
 
 @media screen and (max-width: 700px) { 
     .button {
+        padding-top: 32px;
+        padding-bottom: 32px;
+        font-size: 20px;
         border-radius: 10px;
+
     }
 
 }

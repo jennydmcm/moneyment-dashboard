@@ -157,11 +157,6 @@
   .header {
     font-size: 1.5em;
   }
-
-  .p {
-    margin-left: 2em;
-    margin-right: 2em;
-  }
   
   .subhead {
     font-size: 14px;
@@ -209,11 +204,6 @@
   .hr {
     width: 100%;
   }
-
-  .p {
-    margin-left: 3em;
-    margin-right: 3em;
-  }
   
   .link {
     font-size: 18px;
@@ -260,8 +250,8 @@
   }
   
   .p {
-    margin-left: 3em;
-    margin-right: 3em;
+    margin-left: 1em;
+    margin-right: 0.5em;
   }
   
   .link {

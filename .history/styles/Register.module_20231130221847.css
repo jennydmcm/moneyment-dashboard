@@ -107,7 +107,7 @@
         font-size: 14px;
     }
     
-    .email {
+    /* .email {
         font-size: 14px;
     }
     
@@ -126,8 +126,13 @@
     .inputTitle {
         font-size: 14px;
         margin-top: 24px;
-        padding-bottom: 4px;
     }
+    
+    .register {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 20px;
+    } */
 }
 
 
@@ -172,7 +177,7 @@
 
 
 
-/* Large Tablets */
+/* Tablets */
 
 @media screen and (min-width: 1000px) and (max-width: 2000px)  { 
     .main {

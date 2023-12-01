@@ -23,7 +23,9 @@
 
 @media screen and (max-width: 700px) { 
     .button {
-        border-radius: 10px;
+        padding-top: 32px;
+        padding-bottom: 32px;
+        font-size: 20px;
     }
 
 }
@@ -32,9 +34,8 @@
 
 @media screen and (min-width: 700px) and (max-width: 1000px) { 
     .button {
-        padding-top: 32px;
-        padding-bottom: 32px;
-        font-size: 20px;
+        border-radius: 10px;
+
     }
 }
 

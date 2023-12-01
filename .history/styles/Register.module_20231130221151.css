@@ -96,38 +96,37 @@
     .main {
         width: 100%;
     }
-
-    .name {
-        display: flex;
-        flex-direction: column;
-        gap: 0em;
-    }
     
-    .p {
-        font-size: 14px;
-    }
+    /* .p {
+        font-size: 18px;
+    } */
     
-    .email {
-        font-size: 14px;
+    /* .email {
+        font-size: 18px;
     }
     
     .password {
-        font-size: 14px;
+        font-size: 18px;
     }
     
     .firstName {
-        font-size: 14px;
+        font-size: 18px;
     }
     
     .lastName {
-        font-size: 14px;
+        font-size: 18px;
     }
     
     .inputTitle {
-        font-size: 14px;
-        margin-top: 24px;
-        padding-bottom: 4px;
+        font-size: 18px;
+        margin-top: 32px;
     }
+    
+    .register {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 20px;
+    } */
 }
 
 
@@ -172,7 +171,7 @@
 
 
 
-/* Large Tablets */
+/* Tablets */
 
 @media screen and (min-width: 1000px) and (max-width: 2000px)  { 
     .main {

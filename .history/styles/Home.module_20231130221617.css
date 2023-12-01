@@ -137,8 +137,8 @@
     flex-direction: inherit;
     gap: 0em;
     justify-content: center;
-    height: 95vh;
-    margin-top: 1em;
+    height: 100vh;
+    margin-top: 0em;
     margin-right: 0;
     margin-bottom: 0;
     margin-left: 0;
@@ -156,11 +156,6 @@
   
   .header {
     font-size: 1.5em;
-  }
-
-  .p {
-    margin-left: 2em;
-    margin-right: 2em;
   }
   
   .subhead {
@@ -207,12 +202,7 @@
   }
   
   .hr {
-    width: 100%;
-  }
-
-  .p {
-    margin-left: 3em;
-    margin-right: 3em;
+    width: 17em;
   }
   
   .link {
@@ -256,12 +246,12 @@
   }
   
   .hr {
-    width: 100%;
+    width: 17em;
   }
   
   .p {
-    margin-left: 3em;
-    margin-right: 3em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
   }
   
   .link {

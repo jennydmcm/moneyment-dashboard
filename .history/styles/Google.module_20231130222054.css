@@ -23,7 +23,9 @@
 
 @media screen and (max-width: 700px) { 
     .button {
-        border-radius: 10px;
+        padding-top: 32px;
+        padding-bottom: 32px;
+        font-size: 20px;
     }
 
 }
