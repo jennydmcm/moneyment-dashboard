@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* .textContainer {
+    display: flex;
+    flex-direction: row;
+} */
+
+.budgetMoney {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.category {
+    margin-left: 1rem;
+    font-size: 14px;
+    font-weight: 600;
+    width: 160px;
+}
+
+.budgetItem {
+    font-size: 14px;
+    font-weight: 500;
+    width: 102px;
+}
+
+.budgetMoney {
+    display: flex;
+    flex-direction: row;
+    /* align-items: flex-start; */
+    /* justify-content: space-around; */
+    /* width: 520px; */
+    /* margin-left: 6.5rem; */
+}

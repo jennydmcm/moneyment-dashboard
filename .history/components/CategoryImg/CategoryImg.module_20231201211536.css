@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    margin-left: .5rem;
+}
+
+.store {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.title {
+    color: #707070;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    margin: 0;
+}
+
+.amount {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    width: 340px;
+
+
+}

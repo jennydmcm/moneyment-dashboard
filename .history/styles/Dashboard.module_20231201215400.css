@@ -1,0 +1,186 @@
+.main {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.navBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20vh;
+    margin-left: 20vh;
+    padding-top: 1rem;
+    padding-bottom: .5rem;
+}
+
+.pfp {
+    margin-right: 1.2rem;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.divider {
+    border-top: 1px solid #cbcbcb;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20vh;
+    margin-left: 20vh;
+    padding-top: 1rem;
+    /* padding-bottom: .5rem; */
+}
+
+.title {
+    font-size: 32px;
+}
+
+.warning {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.warningText {
+    font-size: 14px;
+    margin-left: .5rem;
+    font-weight: 600;
+}
+
+.dropdown {
+    position: absolute;
+    top: 90px;
+    /* Adjust the top position based on your layout */
+    right: 140px;
+    /* Adjust the right position based on your layout */
+    z-index: 1000;
+    /* Set a high z-index to ensure it appears above other elements */
+    background-color: white;
+    /* Optional: Set the background color */
+
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+    /* Optional: Add a subtle box shadow */
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.icon {
+    margin-left: 0.8rem;
+}
+
+.contents {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 20vh;
+    margin-left: 20vh;
+    align-items: flex-start;
+}
+
+.dateRange {
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 20vh;    
+    margin-right: 0em;
+    margin-top: 0em;
+    margin-bottom: 1em;
+    padding: 0;
+}
+
+.vertical {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.overview {
+    width: 752px;
+    height: 270px;
+    border-radius: 16px;
+    border: 1px solid #cbcbcb;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    margin-right: .5rem;
+    margin-bottom: .5rem;
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    flex-direction: column;
+}
+
+.contentTitle {
+    display: flex;
+    justify-self: flex-start;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.budgets {
+    width: 752px;
+    height: 310px;
+    border-radius: 16px;
+    border: 1px solid #cbcbcb;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    margin-right: .5rem;
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    flex-direction: column;
+}
+
+.transactions {
+    width: 340px;
+    max-height: 560px;
+    overflow-y: auto;
+    border-radius: 16px;
+    border: 1px solid #cbcbcb;
+    padding: 1.5em;
+    padding-top: 0.5em;
+    display: flex;
+    flex-direction: column;
+}
+
+.transactions::-webkit-scrollbar {
+    color: #ffffff;
+}
+
+.dividerTransaction {
+    border-top: 1px solid #cbcbcb;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    margin-top: 1em;
+    width: 100%;
+}
+
+.date {
+    margin: 0;
+    margin-top: 1rem;
+    margin-bottom: 0.5px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.chart {
+    margin-top: 1em;
+    height: 80%;
+    display: flex;
+    align-content: flex-start;
+}

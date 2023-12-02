@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.budgetMoney {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.category {
+    margin-left: .5rem;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    width: 90px;
+}
+
+.budgetMoney {
+    display: flex;
+    align-items: flex-start;
+    width: 520px;
+    justify-content: space-around;
+    flex-direction: row;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 6.5rem;
+}
