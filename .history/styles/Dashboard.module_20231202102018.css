@@ -1,0 +1,446 @@
+.main {
+    margin: 0;
+    padding: 0;
+    height: 98vh;
+    width: 98vw;
+}
+
+.navBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20vh;
+    margin-left: 20vh;
+    padding-top: 1rem;
+    padding-bottom: .5rem;
+}
+
+.pfp {
+    margin-right: 1.2rem;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.divider {
+    border-top: 1px solid #cbcbcb;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-right: 20vh;
+    margin-left: 20vh;
+    padding-top: 1rem;
+    /* padding-bottom: .5rem; */
+}
+
+.subHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 800px;
+}
+
+.title {
+    font-size: 32px;
+}
+
+.warning {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.warningText {
+    font-size: 12px;
+    margin-left: .5rem;
+    font-weight: 600;
+}
+
+.dropdown {
+    position: absolute;
+    top: 90px;
+    /* Adjust the top position based on your layout */
+    right: 140px;
+    /* Adjust the right position based on your layout */
+    z-index: 1000;
+    /* Set a high z-index to ensure it appears above other elements */
+    background-color: white;
+    /* Optional: Set the background color */
+
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+    /* Optional: Add a subtle box shadow */
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.icon {
+    margin-left: 0.8rem;
+}
+
+.contents {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 20vh;
+    margin-left: 20vh;
+    align-items: flex-start;
+}
+
+.dateRange {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;    
+    margin-bottom: 1.8em;
+    align-self: flex-end;
+    padding: 0;
+}
+
+.vertical {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.overview {
+    width: 752px;
+    height: 270px;
+    border-radius: 8px;
+    border: 1px solid #cbcbcb;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    margin-right: .5rem;
+    margin-bottom: .5rem;
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    flex-direction: column;
+}
+
+.contentTitle {
+    display: flex;
+    justify-self: flex-start;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.budgets {
+    width: 752px;
+    height: 310px;
+    max-height: 310px;    
+    overflow-y: auto;
+    border-radius: 8px;    
+    border: 1px solid #cbcbcb;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    margin-right: .5rem;
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    flex-direction: column;
+}
+
+.budget::-webkit-scrollbar {
+    color: #ffffff;
+}
+
+.transactions {
+    width: 340px;
+    height: 557px;
+    max-height: 557px;
+    overflow-y: auto;
+    border-radius: 8px;
+    border: 1px solid #cbcbcb;
+    padding: 1.5em;
+    padding-top: 0.5em;
+    display: flex;
+    flex-direction: column;
+}
+
+.transactions::-webkit-scrollbar {
+    color: #ffffff;
+}
+
+.dividerTransaction {
+    border-top: 1px solid #cbcbcb;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    width: 100%;
+}
+
+.date {
+    margin: 0;
+    margin-top: 1rem;
+    margin-bottom: 0.5em;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.chart {
+    margin-top: 1em;
+    height: 80%;
+    display: flex;
+    align-content: flex-start;
+}
+
+
+
+
+/* Small Phone */
+@media screen and (max-width: 400px) { 
+
+}
+  
+  
+/* Large Phone */
+@media screen and (min-width: 400px) and (max-width: 600px) { 
+
+    .navBar {
+        margin-right: 2vh;
+        margin-left: 2vh;
+    }
+    
+    .header {
+        margin-right: 2vh;
+        margin-left: 2vh;
+    }
+
+    .subHeader {
+        flex-direction: column;
+        justify-content: center;
+        width: 400px;    
+    }
+
+    .dateRange {
+        align-self: flex-start;
+    }
+
+    .dateRange {
+        margin-left: 0em;    
+    }
+
+    .contents {
+        flex-direction: column;
+        gap: 1em;
+        width: 100%;
+        margin-right: 2vh;
+        margin-left: 2vh;
+    }
+    .budgets {
+        width: 100%;
+        height: 585px;
+        max-height: 585px; 
+    }
+
+    .vertical {
+        gap: 1em;
+        width: 94%;
+    }
+
+    .overview {
+        width: 100%;
+        margin: 0;
+    }
+    
+    .transactions {
+        width: 94%;
+        margin-bottom: 2rem;
+    }
+}
+  
+  
+/* Small Tablets */
+@media screen and (min-width: 600px) and (max-width: 830px) { 
+    .main {
+        margin: 0;
+        padding: 0;
+        height: 98vh;
+        width: 93vw;
+    }
+
+    .navBar {
+        margin-right: 4vh;
+        margin-left: 4vh;
+    }
+    
+    .pfp {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .header {
+        margin-right: 4vh;
+        margin-left: 4vh;
+    }
+
+    .subHeader {
+        flex-direction: column;
+        justify-content: center;
+        width: 400px;    
+    }
+
+    .dateRange {
+        align-self: flex-start;
+    }
+
+    .dateRange {
+        margin-left: 0em;    
+    }
+
+    .contents {
+        flex-direction: column;
+        gap: 1em;
+        margin-right: 4vh;
+        margin-left: 4vh;
+    }
+    .budgets {
+        width: 650px;
+        height: 585px;
+        max-height: 585px; 
+    }
+
+    .vertical {
+        gap: 1em;
+    }
+
+    .overview {
+        width: 650px;
+        margin: 0;
+    }
+    
+    .transactions {
+        width: 650px;
+        margin-bottom: 2rem;
+    }
+}
+  
+  
+/* Large Tablets */
+@media screen and (min-width: 830px) and (max-width: 1100px) { 
+    .main {
+        margin: 0;
+        padding: 0;
+        height: 98vh;
+        width: 93vw;
+    }
+
+    .navBar {
+        margin-right: 5vh;
+        margin-left: 5vh;
+    }
+    
+    .pfp {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .header {
+        margin-right: 5vh;
+        margin-left: 5vh;
+    }
+
+    .subHeader {
+        width: 550px;
+    }
+
+    .dateRange {
+        margin-left: 0em;    
+    }
+
+    .contents {
+        flex-direction: column;
+        gap: 1em;
+        margin-right: 5vh;
+        margin-left: 5vh;
+    }
+    .budgets {
+        width: 770px;
+    }
+
+    .vertical {
+        gap: 1em;
+    }
+
+    .overview {
+        width: 770px;
+        margin: 0;
+    }
+    
+    .transactions {
+        width: 770px;
+        margin-bottom: 2rem;
+    }
+}
+  
+  
+/* X-Small Desktops */
+@media screen and (min-width: 1100px) and (max-width: 1300px) { 
+    .navBar {
+        margin-right: 10vh;
+        margin-left: 10vh;
+    }
+    
+    .pfp {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .header {
+        margin-right: 10vh;
+        margin-left: 10vh;
+    }
+    
+    .contents {
+        margin-right: 10vh;
+        margin-left: 10vh;
+    }
+    
+    .transactions {
+        margin-bottom: 2rem;
+    }
+}
+  
+  
+/* Small Desktops */
+@media screen and (min-width: 1300px) and (max-width: 1500px) { 
+    .navBar {
+        margin-right: 15vh;
+        margin-left: 15vh;
+    }
+    
+    .pfp {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .header {
+        margin-right: 15vh;
+        margin-left: 15vh;
+    }
+    
+    .contents {
+        margin-right: 15vh;
+        margin-left: 15vh;
+    }
+    
+    .transactions {
+        margin-bottom: 2rem;
+    }
+}

@@ -1,0 +1,9 @@
+.progress_bar {
+    border-style: 'solid',
+    borderRadius: 0,
+    margin: -1,
+    borderTopLeftRadius: 0,
+    borderTopRightRadius: 0,
+    borderBottomLeftRadius: 5,
+    borderBottomRightRadius: 5,
+}

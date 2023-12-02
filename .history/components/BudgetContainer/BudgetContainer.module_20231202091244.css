@@ -1,0 +1,51 @@
+.titles {
+    margin-top: 1rem;
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    font-weight: 500;
+    width: 770px;
+    height: 40px;
+    border-radius: 8px 8px 0px 0px;
+    background: rgba(244, 244, 244, 0.75);
+}
+
+.name {
+    width: 110px;
+    margin-right: 7rem;
+    margin-left: 1rem;
+}
+
+.budgetTitles {
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+}
+
+.budget {
+    width: 103px;
+}
+
+
+
+/* Small Phone */
+@media screen and (max-width: 400px) { 
+
+}
+  
+  
+/* Large Phone */
+@media screen and (min-width: 400px) and (max-width: 600px) { 
+    .titles {    
+        display: none;
+    }
+}
+  
+  
+/* Small Tablets */
+@media screen and (min-width: 600px) and (max-width: 830px) { 
+    .titles {    
+        display: none;
+    }
+}
