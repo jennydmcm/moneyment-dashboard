@@ -1,0 +1,142 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.budgetMoney {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.category {
+    margin-left: 1rem;
+    font-size: 14px;
+    font-weight: 600;
+    width: 160px;
+}
+
+.budgetItem {
+    font-size: 14px;
+    font-weight: 500;
+    width: 103px;
+}
+
+.status {
+    font-size: 12px;
+    padding: 0.5em;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: 600;
+    width: 103px;
+}
+
+.overspent {
+    background-color: #F8E9E6;
+    color: #9c0505; 
+}
+
+.onBudget {
+    background-color: #E3F1F1;
+    color: #1E4C40;
+} 
+
+.budgetMoney {
+    display: flex;
+    flex-direction: row;
+    /* align-items: flex-start; */
+    /* justify-content: space-around; */
+    /* width: 520px; */
+    /* margin-left: 6.5rem; */
+}
+
+.divider {
+    border-top: 1px solid #f0f0f0;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+}
+
+.mobileContainer {
+    display: none;
+}
+
+
+/* Small Phone */
+@media screen and (max-width: 400px) { 
+
+}
+  
+  
+/* Large Phone */
+@media screen and (min-width: 400px) and (max-width: 600px) { 
+
+}
+  
+  
+/* Small Tablets */
+@media screen and (min-width: 600px) and (max-width: 830px) { 
+    .container {
+        display: none;
+    }
+
+    .mobileContainer {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #cbcbcb;
+        border-radius: 5px;
+
+    }
+
+    .mobileHeader {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 1.5em;
+        margin-top: 0.5em;
+    }
+
+    .mobileTextHeader {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        column-gap: 1em;
+    }
+
+    .mobileCategory {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .mobileStatus {
+        font-size: 12px;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        padding-left: 1em;
+        padding-right: 1em;
+        border-radius: 4px;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .mobileDivider {
+        border-top: 1px solid #cbcbcb;
+        border-bottom: none;
+        border-left: none;
+        border-right: none;
+        width: 100%;
+        margin-right: 1.5em;
+        margin-right: 1.5em;
+
+
+    }
+
+}

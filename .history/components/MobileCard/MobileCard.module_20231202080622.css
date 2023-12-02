@@ -1,0 +1,9 @@
+.container {
+    border-style: 'solid';
+    border-width: 1;
+    border-color: '#DDDDDD';
+    border-radius: 5,
+    marginTop: 10,
+    height: 118,
+    justifyContent: "space-between"
+}
