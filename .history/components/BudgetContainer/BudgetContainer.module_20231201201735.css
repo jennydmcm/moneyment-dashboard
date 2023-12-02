@@ -1,0 +1,29 @@
+.titles {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    width: 770px;
+    height: 40px;
+    border-radius: 8px 8px 0px 0px;
+    background: rgba(244, 244, 244, 0.75);
+}
+
+.name {
+    width: 110px;
+    margin-right: 7rem;
+    margin-left: 1rem;
+}
+
+.budgetTitles {
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+
+}
+
+.budget {
+    margin-right: 3.7rem;
+}

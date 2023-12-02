@@ -1,0 +1,170 @@
+.main {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.navBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20vh;
+    margin-left: 20vh;
+    padding-top: 2rem;
+    padding-bottom: .5rem;
+}
+
+.pfp {
+    margin-right: 1.2rem;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.divider {
+    border-top: 1px solid #A9A9A9;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20vh;
+    margin-left: 20vh;
+    padding-top: 2rem;
+    padding-bottom: .5rem;
+}
+
+.title {
+    font-size: 32px;
+}
+
+.warning {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.warningText {
+    font-size: 14px;
+    margin-left: .5rem;
+    font-weight: 600;
+}
+
+.dropdown {
+    position: absolute;
+    top: 90px;
+    /* Adjust the top position based on your layout */
+    right: 140px;
+    /* Adjust the right position based on your layout */
+    z-index: 1000;
+    /* Set a high z-index to ensure it appears above other elements */
+    background-color: white;
+    /* Optional: Set the background color */
+
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+    /* Optional: Add a subtle box shadow */
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.icon {
+    margin-left: 0.8rem;
+}
+
+.contents {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20vh;
+    margin-left: 20vh;
+}
+
+.vertical {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.budgets {
+    width: 752px;
+    height: 260px;
+    border-radius: 16px;
+    border: 1px solid #A9A9A9;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    padding-top: 1em;
+    padding-right: 1.5em;
+    padding-bottom: 1em;
+    padding-left: .5em;
+}
+
+.transactions {
+    width: 340px;
+    height: 528px;
+    border-radius: 16px;
+    border: 1px solid #A9A9A9;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 1em;
+}
+
+
+
+.date {
+    margin: 0;
+    margin-top: 1rem;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+
+
+.overview {
+    width: 752px;
+    height: 209px;
+    border-radius: 16px;
+    border: 1px solid #A9A9A9;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+
+    flex-direction: column;
+}
+
+.overviewTitle {
+    display: flex;
+    justify-self: flex-start;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.chart {
+    display: flex;
+    align-content: center;
+    width: 752px;
+    height: 200px;
+    margin-left: 10rem;
+
+}
