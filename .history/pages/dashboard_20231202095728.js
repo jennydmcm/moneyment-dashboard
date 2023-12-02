@@ -51,8 +51,8 @@ export default function Dashboard() {
                 <Image className={styles.wordmark} src="/wordmark.svg" width={200} height={50} />
                 <div className={styles.user} onClick={() => setShowDropdown(!showDropdown)}>
                     <Image className={styles.pfp} src="/pfp-placeholder.png" width={44} height={44} />
-                    
-                    <p className={styles.userName}> Hello, {user?.displayName} </p>
+
+                    Hello, {user?.displayName}
 
                     <Image className={styles.icon} src="/logoutArrow.svg" width={16} height={9}/>
                 </div>
@@ -67,7 +67,7 @@ export default function Dashboard() {
             <hr className={styles.divider}></hr>
 
             <div className={styles.header}>
-                <div className={styles.subHeader}>
+                <div>
                     <h1 className={styles.title}>Budget Dashboard</h1>
                     <p className={styles.dateRange}>December, 2023</p>
                 </div>

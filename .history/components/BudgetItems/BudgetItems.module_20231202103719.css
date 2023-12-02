@@ -71,95 +71,7 @@
 
 /* Small Phone */
 @media screen and (max-width: 400px) { 
-    .container {
-        display: none;
-    }
 
-    .mobileContainer {
-        display: flex;
-        flex-direction: column;
-        border: 1px solid #cbcbcb;
-        border-radius: 5px;
-        margin-top: 1em;
-    }
-
-    .mobileHeader {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        margin-right: 1.5em;
-        margin-top: 0.5em;
-    }
-
-    .mobileTextHeader {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        column-gap: 1em;
-    }
-
-    .mobileCategory {
-        font-size: 16px;
-        font-weight: 600;
-    }
-
-    .mobileStatus {
-        font-size: 12px;
-        padding-top: 0.5em;
-        padding-bottom: 0.5em;
-        padding-left: 1em;
-        padding-right: 1em;
-        border-radius: 4px;
-        text-align: center;
-        font-weight: 600;
-    }
-
-    .mobileDivider {
-        border-top: 1px solid #cbcbcb;
-        border-bottom: none;
-        border-left: none;
-        border-right: none;
-        margin-right: 1em;
-        margin-left: 1em;
-    }
-
-    .mobileContent {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        margin-right: 1.5em;
-        margin-left: 1.5em;
-        margin-bottom: 0.5em;
-    }
-
-    .mobileInnerContent {
-        display: flex;
-        flex-direction: column;
-        margin-top: 0.5em;
-        margin-bottom: 1em;
-    }
-
-    .mobileBudgetItem {
-        font-size: 16px;
-        font-weight: 700;
-        margin: 0;
-        margin-bottom: 0.5em;
-    }
-
-    .mobileMobile {
-        margin: 0;
-        color: #707070;
-    }
-
-    .mobileDividerVertical {
-        border-top: none;
-        border-bottom: none;
-        border-left: none;
-        border-right: 1px solid #cbcbcb;;
-        margin-right: 1em;
-        margin-left: 1em;
-    }
 }
   
   
@@ -170,6 +82,7 @@
     }
 
     .mobileContainer {
+        width: 100%;
         display: flex;
         flex-direction: column;
         border: 1px solid #cbcbcb;

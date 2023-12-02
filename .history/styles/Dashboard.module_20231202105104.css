@@ -225,7 +225,6 @@
     }
     
     .header {
-        padding-top: 0rem;
         margin-right: 2vh;
         margin-left: 2vh;
         flex-direction: column;
@@ -237,12 +236,7 @@
         width: 100%;   
     }
 
-    .title {
-        font-size: 24px;
-    }
-
     .dateRange {
-        font-size: 14px;
         align-self: flex-start;
         margin-bottom: 0;
     }

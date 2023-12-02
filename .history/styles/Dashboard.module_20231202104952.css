@@ -212,12 +212,7 @@
 
     .wordmark {
         height: 40px;
-        width: 150px;
-    }
-
-    .pfp {
-        width: 30px;
-        height: 30px;
+        width: 200px;
     }
 
     .divider {
@@ -225,7 +220,6 @@
     }
     
     .header {
-        padding-top: 0rem;
         margin-right: 2vh;
         margin-left: 2vh;
         flex-direction: column;
@@ -237,19 +231,13 @@
         width: 100%;   
     }
 
-    .title {
-        font-size: 24px;
-    }
-
     .dateRange {
-        font-size: 14px;
         align-self: flex-start;
         margin-bottom: 0;
     }
 
     .dropdown {
-        right: 0px;
-        top: 80px;
+        right: 20px;
     }
 
     .warning {

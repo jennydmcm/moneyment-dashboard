@@ -47,10 +47,7 @@
 }
 
 .subHeader {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 800px;
+    di]
 }
 
 .title {
@@ -103,9 +100,10 @@
 .dateRange {
     font-size: 14px;
     font-weight: 600;
-    margin: 0;    
-    margin-bottom: 1.8em;
-    align-self: flex-end;
+    margin-left: 20vh;    
+    margin-right: 0em;
+    margin-top: 0em;
+    margin-bottom: 2em;
     padding: 0;
 }
 
@@ -205,225 +203,13 @@
 
 /* Small Phone */
 @media screen and (max-width: 400px) { 
-    .navBar {
-        margin-right: 0vh;
-        margin-left: 2vh;
-    }
 
-    .wordmark {
-        height: 40px;
-        width: 150px;
-    }
-
-    .pfp {
-        width: 30px;
-        height: 30px;
-    }
-
-    .divider {
-        width: 105%;
-    }
-    
-    .header {
-        padding-top: 0rem;
-        margin-right: 2vh;
-        margin-left: 2vh;
-        flex-direction: column;
-    }
-
-    .subHeader {
-        flex-direction: column;
-        justify-content: center;
-        width: 100%;   
-    }
-
-    .title {
-        font-size: 24px;
-    }
-
-    .dateRange {
-        font-size: 14px;
-        align-self: flex-start;
-        margin-bottom: 0;
-    }
-
-    .dropdown {
-        right: 0px;
-        top: 80px;
-    }
-
-    .warning {
-        margin-bottom: 0;
-    }
-
-    .dateRange {
-        margin-left: 0em;    
-    }
-
-    .contents {
-        flex-direction: column;
-        gap: 1em;
-        width: 100%;
-        margin-right: 4vh;
-        margin-left: 2vh;
-    }
-    .budgets {
-        border: none;
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 585px;
-        max-height: 585px; 
-    }
-
-    .budgetContainer {
-        width: 100%;
-    }
-
-    .contentTitle {
-        margin-bottom: 0.5em;
-    }
-
-    .vertical {
-        gap: 1em;
-        width: 100%;
-    }
-
-    .overview {
-        border: none;
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 260px;
-    }
-    
-    .transactions {
-        border: none;
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: fit-content;
-        margin-bottom: 2rem;
-        padding-right: 1em;
-    }
-
-    .chart {
-        height: 70%;
-    }
-
-    .userName {
-        display: none;
-    }
-
-    .pfp {
-        width: 40px;
-        height: 40px;
-        margin-right: 0.5rem;
-    }
 }
   
   
 /* Large Phone */
 @media screen and (min-width: 400px) and (max-width: 600px) { 
 
-    .navBar {
-        margin-right: 0vh;
-        margin-left: 2vh;
-    }
-
-    .divider {
-        width: 105%;
-    }
-    
-    .header {
-        margin-right: 2vh;
-        margin-left: 2vh;
-        flex-direction: column;
-    }
-
-    .subHeader {
-        flex-direction: column;
-        justify-content: center;
-        width: 100%;   
-    }
-
-    .dateRange {
-        align-self: flex-start;
-        margin-bottom: 0;
-    }
-
-    .dropdown {
-        right: 20px;
-    }
-
-    .warning {
-        margin-bottom: 0;
-    }
-
-    .dateRange {
-        margin-left: 0em;    
-    }
-
-    .contents {
-        flex-direction: column;
-        gap: 1em;
-        width: 100%;
-        margin-right: 4vh;
-        margin-left: 2vh;
-    }
-    .budgets {
-        border: none;
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 585px;
-        max-height: 585px; 
-    }
-
-    .budgetContainer {
-        width: 100%;
-    }
-
-    .contentTitle {
-        margin-bottom: 0.5em;
-    }
-
-    .vertical {
-        gap: 1em;
-        width: 100%;
-    }
-
-    .overview {
-        border: none;
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 260px;
-    }
-    
-    .transactions {
-        border: none;
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: fit-content;
-        margin-bottom: 2rem;
-        padding-right: 1em;
-    }
-
-    .chart {
-        height: 70%;
-    }
-
-    .userName {
-        display: none;
-    }
-
-    .pfp {
-        width: 40px;
-        height: 40px;
-        margin-right: 0.5rem;
-    }
 }
   
   
@@ -437,7 +223,7 @@
     }
 
     .navBar {
-        margin-right: 2vh;
+        margin-right: 4vh;
         margin-left: 4vh;
     }
     
@@ -445,28 +231,10 @@
         width: 40px;
         height: 40px;
     }
-
-    .divider {
-        width: 105%;
-    }
-
-    .dropdown {
-        right: 80px;
-    }
-
+    
     .header {
         margin-right: 4vh;
         margin-left: 4vh;
-    }
-
-    .subHeader {
-        flex-direction: column;
-        justify-content: center;
-        width: 400px;    
-    }
-
-    .dateRange {
-        align-self: flex-start;
     }
 
     .dateRange {
@@ -514,27 +282,15 @@
         margin-right: 5vh;
         margin-left: 5vh;
     }
-
-    .divider {
-        width: 105%;
-    }
     
     .pfp {
         width: 40px;
         height: 40px;
     }
-
-    .dropdown {
-        right: 120px;
-    }
     
     .header {
         margin-right: 5vh;
         margin-left: 5vh;
-    }
-
-    .subHeader {
-        width: 550px;
     }
 
     .dateRange {
@@ -577,10 +333,6 @@
     .pfp {
         width: 40px;
         height: 40px;
-    }
-
-    .dropdown {
-        right: 90px;
     }
     
     .header {

@@ -205,121 +205,7 @@
 
 /* Small Phone */
 @media screen and (max-width: 400px) { 
-    .navBar {
-        margin-right: 0vh;
-        margin-left: 2vh;
-    }
 
-    .wordmark {
-        height: 40px;
-        width: 150px;
-    }
-
-    .pfp {
-        width: 30px;
-        height: 30px;
-    }
-
-    .divider {
-        width: 105%;
-    }
-    
-    .header {
-        padding-top: 0rem;
-        margin-right: 2vh;
-        margin-left: 2vh;
-        flex-direction: column;
-    }
-
-    .subHeader {
-        flex-direction: column;
-        justify-content: center;
-        width: 100%;   
-    }
-
-    .title {
-        font-size: 24px;
-    }
-
-    .dateRange {
-        font-size: 14px;
-        align-self: flex-start;
-        margin-bottom: 0;
-    }
-
-    .dropdown {
-        right: 0px;
-        top: 80px;
-    }
-
-    .warning {
-        margin-bottom: 0;
-    }
-
-    .dateRange {
-        margin-left: 0em;    
-    }
-
-    .contents {
-        flex-direction: column;
-        gap: 1em;
-        width: 100%;
-        margin-right: 4vh;
-        margin-left: 2vh;
-    }
-    .budgets {
-        border: none;
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 585px;
-        max-height: 585px; 
-    }
-
-    .budgetContainer {
-        width: 100%;
-    }
-
-    .contentTitle {
-        margin-bottom: 0.5em;
-    }
-
-    .vertical {
-        gap: 1em;
-        width: 100%;
-    }
-
-    .overview {
-        border: none;
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 260px;
-    }
-    
-    .transactions {
-        border: none;
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: fit-content;
-        margin-bottom: 2rem;
-        padding-right: 1em;
-    }
-
-    .chart {
-        height: 70%;
-    }
-
-    .userName {
-        display: none;
-    }
-
-    .pfp {
-        width: 40px;
-        height: 40px;
-        margin-right: 0.5rem;
-    }
 }
   
   
@@ -327,12 +213,8 @@
 @media screen and (min-width: 400px) and (max-width: 600px) { 
 
     .navBar {
-        margin-right: 0vh;
+        margin-right: 2vh;
         margin-left: 2vh;
-    }
-
-    .divider {
-        width: 105%;
     }
     
     .header {
@@ -344,20 +226,10 @@
     .subHeader {
         flex-direction: column;
         justify-content: center;
-        width: 100%;   
     }
 
     .dateRange {
         align-self: flex-start;
-        margin-bottom: 0;
-    }
-
-    .dropdown {
-        right: 20px;
-    }
-
-    .warning {
-        margin-bottom: 0;
     }
 
     .dateRange {
@@ -372,43 +244,24 @@
         margin-left: 2vh;
     }
     .budgets {
-        border: none;
-        margin: 0;
-        padding: 0;
         width: 100%;
         height: 585px;
         max-height: 585px; 
     }
 
-    .budgetContainer {
-        width: 100%;
-    }
-
-    .contentTitle {
-        margin-bottom: 0.5em;
-    }
-
     .vertical {
         gap: 1em;
-        width: 100%;
+        width: 84%;
     }
 
     .overview {
-        border: none;
-        margin: 0;
-        padding: 0;
         width: 100%;
-        height: 260px;
+        margin: 0;
     }
     
     .transactions {
-        border: none;
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: fit-content;
+        width: 84%;
         margin-bottom: 2rem;
-        padding-right: 1em;
     }
 
     .chart {
@@ -437,7 +290,7 @@
     }
 
     .navBar {
-        margin-right: 2vh;
+        margin-right: 4vh;
         margin-left: 4vh;
     }
     
@@ -445,15 +298,7 @@
         width: 40px;
         height: 40px;
     }
-
-    .divider {
-        width: 105%;
-    }
-
-    .dropdown {
-        right: 80px;
-    }
-
+    
     .header {
         margin-right: 4vh;
         margin-left: 4vh;
@@ -514,18 +359,10 @@
         margin-right: 5vh;
         margin-left: 5vh;
     }
-
-    .divider {
-        width: 105%;
-    }
     
     .pfp {
         width: 40px;
         height: 40px;
-    }
-
-    .dropdown {
-        right: 120px;
     }
     
     .header {
@@ -577,10 +414,6 @@
     .pfp {
         width: 40px;
         height: 40px;
-    }
-
-    .dropdown {
-        right: 90px;
     }
     
     .header {

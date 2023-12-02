@@ -51,8 +51,10 @@ export default function Dashboard() {
                 <Image className={styles.wordmark} src="/wordmark.svg" width={200} height={50} />
                 <div className={styles.user} onClick={() => setShowDropdown(!showDropdown)}>
                     <Image className={styles.pfp} src="/pfp-placeholder.png" width={44} height={44} />
-                    
-                    <p className={styles.userName}> Hello, {user?.displayName} </p>
+                    <p>
+                    Hello, {user?.displayName}
+
+                    </p>
 
                     <Image className={styles.icon} src="/logoutArrow.svg" width={16} height={9}/>
                 </div>
